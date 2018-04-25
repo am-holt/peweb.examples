@@ -1,0 +1,422 @@
+package org.eclipse.xtext.peweb.editorgen;
+import java.util.Map;
+import java.util.HashMap;
+import org.eclipse.xtext.peweb.customview.*;
+import org.eclipse.xtext.peweb.customview.generatoritems.*;
+
+public class ViewSpecification {
+	
+	public static  Map<ProjectionIdentifier,HtmlProjectionSpecification> getNodeMap(){
+		Map<ProjectionIdentifier,HtmlProjectionSpecification> result 
+			= new HashMap<ProjectionIdentifier,HtmlProjectionSpecification>();
+			
+		result.put((new ProjectionIdentifier("And","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral("  ")
+			)
+			.addItemToView(new ChildRef("left","main")
+			)
+			.addItemToView(new CodeLiteral(" && ")
+			)
+			.addItemToView(new ChildRef("right","main")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("AssignStmt","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral("  ")
+			)
+			.addItemToView(new ChildRef("var","ref")
+			)
+			.addItemToView(new CodeLiteral(" := ")
+			)
+			.addItemToView(new ChildRef("expr","main")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("AssignStmt","ref")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ChildRef("var","ref")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("BoolConstant","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral("  ")
+			)
+			.addItemToView(new ComponentRef("textBox","value")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("Comparison","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ChildRef("left","main")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ComponentRef("textBox","op")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ChildRef("right","main")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("Declaration","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" VAR ")
+			)
+			.addItemToView(new ComponentRef("textBox","name")
+			)
+			.addItemToView(new CodeLiteral(" : ")
+			)
+			.addItemToView(new ComponentRef("textBox","type")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("Declaration","ref")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ComponentRef("string","name")
+			)
+			.addItemToView(new CodeLiteral("")
+			)
+			);
+		result.put((new ProjectionIdentifier("Edge","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ChildRef("source","ref")
+			)
+			.addItemToView(new CodeLiteral(" -> ")
+			)
+			.addItemToView(new ChildRef("dest","ref")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("GraphConstant","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" Graph{ Vertices: ")
+			)
+			.addItemToView(new ChildRef("vertices","main")
+			)
+			.addItemToView(new CodeLiteral(" Edges:  ")
+			)
+			.addItemToView(new ChildRef("edges","main")
+			)
+			.addItemToView(new CodeLiteral(" }")
+			)
+			);
+		result.put((new ProjectionIdentifier("IfStmt","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" IF ")
+			)
+			.addItemToView(new ChildRef("expr","main")
+			)
+			.addItemToView(new CodeLiteral(" THEN ")
+			)
+			.addItemToView(new ChildRef("stmts","main")
+			)
+			.addItemToView(new CodeLiteral(" ELSE ")
+			)
+			.addItemToView(new ChildRef("elseStmts","main")
+			)
+			.addItemToView(new CodeLiteral(" END ")
+			)
+			);
+		result.put((new ProjectionIdentifier("IntConstant","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ComponentRef("textBox","value")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("MoveStmt","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" MOVE ")
+			)
+			.addItemToView(new ChildRef("var","ref")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("MulOrDiv","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ChildRef("left","main")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ComponentRef("textBox","op")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ChildRef("right","main")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("Not","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" NOT ")
+			)
+			.addItemToView(new ChildRef("expr","main")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("Or","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ChildRef("left","main")
+			)
+			.addItemToView(new CodeLiteral(" OR ")
+			)
+			.addItemToView(new ChildRef("right","main")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("ParticleConstant","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" PARTICLE ON ")
+			)
+			.addItemToView(new ChildRef("graph","main")
+			)
+			.addItemToView(new CodeLiteral(" AT ")
+			)
+			.addItemToView(new ChildRef("vertex","ref")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("PathExistence","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ChildRef("left","main")
+			)
+			.addItemToView(new CodeLiteral(" ->-> ")
+			)
+			.addItemToView(new ChildRef("right","main")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("PlusOrMin","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ChildRef("left","main")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ComponentRef("textBox","op")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ChildRef("right","main")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("PrintStmt","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" PRINT ")
+			)
+			.addItemToView(new ChildRef("expr","main")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("Program","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral("DECLARATIONS ")
+			)
+			.addItemToView(new ChildRef("declarations","main")
+			)
+			.addItemToView(new CodeLiteral(" BEGIN ")
+			)
+			.addItemToView(new ChildRef("stmts","main")
+			)
+			.addItemToView(new CodeLiteral(" END")
+			)
+			);
+		result.put((new ProjectionIdentifier("StringConstant","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ComponentRef("textBox","value")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("VariableRef","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ChildRef("variable","ref")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("Vertex","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ComponentRef("textBox","name")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("Vertex","ref")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" ")
+			)
+			.addItemToView(new ComponentRef("string","name")
+			)
+			.addItemToView(new CodeLiteral(" ")
+			)
+			);
+		result.put((new ProjectionIdentifier("WhileStmt","main")),
+			new HtmlProjectionSpecification()
+			.addItemToView(new CodeLiteral(" WHILE ")
+			)
+			.addItemToView(new ChildRef("expr","main")
+			)
+			.addItemToView(new CodeLiteral(" DO ")
+			)
+			.addItemToView(new ChildRef("stmts","main")
+			)
+			.addItemToView(new CodeLiteral(" END ")
+			)
+			);
+		
+		return result;	
+	}
+	
+	public static  Map<String,HtmlComponentSpecification> getComponentMap(){
+		Map<String,HtmlComponentSpecification> result 
+			= new HashMap<String,HtmlComponentSpecification>();
+			
+		result.put("shortTextBox",
+			new HtmlComponentSpecification()
+			.addItemToView(new CodeLiteral("<input type=\"text\" style=\"width: 40px;\" id=")
+			)
+			.addItemToView(new IdentifierTag("input")
+			)
+			.addItemToView(new CodeLiteral(">")
+			)
+			.addAttributeController(new AttributeControllerSpecification()
+				.addGetterItem(new CodeLiteral("document.getElementById(")
+				)
+				.addGetterItem(new IdentifierTag("input")
+				)
+				.addGetterItem(new CodeLiteral(").value")
+				)
+				.addSetterItem(new CodeLiteral("document.getElementById(")
+				)
+				.addSetterItem(new IdentifierTag("input")
+				)
+				.addSetterItem(new CodeLiteral(").value = X")
+				)
+				.addValidatorItem(new CodeLiteral("")
+				)
+			)
+			);
+		result.put("numberBox",
+			new HtmlComponentSpecification()
+			.addItemToView(new CodeLiteral("<input type=\"number\" style=\"width: 40px;\" id=")
+			)
+			.addItemToView(new IdentifierTag("input")
+			)
+			.addItemToView(new CodeLiteral(">")
+			)
+			.addAttributeController(new AttributeControllerSpecification()
+				.addGetterItem(new CodeLiteral("document.getElementById(")
+				)
+				.addGetterItem(new IdentifierTag("input")
+				)
+				.addGetterItem(new CodeLiteral(").value")
+				)
+				.addSetterItem(new CodeLiteral("document.getElementById(")
+				)
+				.addSetterItem(new IdentifierTag("input")
+				)
+				.addSetterItem(new CodeLiteral(").value = X")
+				)
+				.addValidatorItem(new CodeLiteral("")
+				)
+			)
+			);
+		result.put("string",
+			new HtmlComponentSpecification()
+			.addItemToView(new CodeLiteral("<span id=")
+			)
+			.addItemToView(new IdentifierTag("input")
+			)
+			.addItemToView(new CodeLiteral("> </span>")
+			)
+			.addAttributeController(new AttributeControllerSpecification()
+				.addGetterItem(new CodeLiteral("document.getElementById(")
+				)
+				.addGetterItem(new IdentifierTag("input")
+				)
+				.addGetterItem(new CodeLiteral(").innerHTML")
+				)
+				.addSetterItem(new CodeLiteral("document.getElementById(")
+				)
+				.addSetterItem(new IdentifierTag("input")
+				)
+				.addSetterItem(new CodeLiteral(").innerHTML = X")
+				)
+				.addValidatorItem(new CodeLiteral("")
+				)
+			)
+			);
+		result.put("textBox",
+			new HtmlComponentSpecification()
+			.addItemToView(new CodeLiteral("<input type=\"text\" id=")
+			)
+			.addItemToView(new IdentifierTag("input")
+			)
+			.addItemToView(new CodeLiteral(">")
+			)
+			.addAttributeController(new AttributeControllerSpecification()
+				.addGetterItem(new CodeLiteral("document.getElementById(")
+				)
+				.addGetterItem(new IdentifierTag("input")
+				)
+				.addGetterItem(new CodeLiteral(").value")
+				)
+				.addSetterItem(new CodeLiteral("document.getElementById(")
+				)
+				.addSetterItem(new IdentifierTag("input")
+				)
+				.addSetterItem(new CodeLiteral(").value = X")
+				)
+				.addValidatorItem(new CodeLiteral("")
+				)
+			)
+			);
+			
+		return result;	
+	}
+	 
+}

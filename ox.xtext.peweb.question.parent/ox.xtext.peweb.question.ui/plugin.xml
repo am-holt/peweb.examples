@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+	<extension
+		point="org.eclipse.ui.editors">
+		<editor
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.XtextEditor"
+			contributorClass="org.eclipse.ui.editors.text.TextEditorActionContributor"
+			default="true"
+			extensions="q"
+			id="ox.xtext.peweb.question.Q"
+			name="Q Editor">
+		</editor>
+	</extension>
+	<extension
+		point="org.eclipse.ui.handlers">
+		<handler
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.hyperlinking.OpenDeclarationHandler"
+			commandId="org.eclipse.xtext.ui.editor.hyperlinking.OpenDeclaration">
+			<activeWhen>
+				<reference
+					definitionId="ox.xtext.peweb.question.Q.Editor.opened">
+				</reference>
+			</activeWhen>
+		</handler>
+		<handler
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.handler.ValidateActionHandler"
+			commandId="ox.xtext.peweb.question.Q.validate">
+		<activeWhen>
+			<reference
+					definitionId="ox.xtext.peweb.question.Q.Editor.opened">
+			</reference>
+		</activeWhen>
+		</handler>
+		<!-- copy qualified name -->
+		<handler
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.copyqualifiedname.EditorCopyQualifiedNameHandler"
+			commandId="org.eclipse.xtext.ui.editor.copyqualifiedname.EditorCopyQualifiedName">
+			<activeWhen>
+				<reference definitionId="ox.xtext.peweb.question.Q.Editor.opened" />
+			</activeWhen>
+		</handler>
+		<handler
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.copyqualifiedname.OutlineCopyQualifiedNameHandler"
+			commandId="org.eclipse.xtext.ui.editor.copyqualifiedname.OutlineCopyQualifiedName">
+			<activeWhen>
+				<and>
+					<reference definitionId="ox.xtext.peweb.question.Q.XtextEditor.opened" />
+					<iterate>
+						<adapt type="org.eclipse.xtext.ui.editor.outline.IOutlineNode" />
+					</iterate>
+				</and>
+			</activeWhen>
+		</handler>
+	</extension>
+	<extension point="org.eclipse.core.expressions.definitions">
+		<definition id="ox.xtext.peweb.question.Q.Editor.opened">
+			<and>
+				<reference definitionId="isActiveEditorAnInstanceOfXtextEditor"/>
+				<with variable="activeEditor">
+					<test property="org.eclipse.xtext.ui.editor.XtextEditor.languageName"
+						value="ox.xtext.peweb.question.Q"
+						forcePluginActivation="true"/>
+				</with>
+			</and>
+		</definition>
+		<definition id="ox.xtext.peweb.question.Q.XtextEditor.opened">
+			<and>
+				<reference definitionId="isXtextEditorActive"/>
+				<with variable="activeEditor">
+					<test property="org.eclipse.xtext.ui.editor.XtextEditor.languageName"
+						value="ox.xtext.peweb.question.Q"
+						forcePluginActivation="true"/>
+				</with>
+			</and>
+		</definition>
+	</extension>
+	<extension
+			point="org.eclipse.ui.preferencePages">
+		<page
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.preferences.LanguageRootPreferencePage"
+			id="ox.xtext.peweb.question.Q"
+			name="Q">
+			<keywordReference id="ox.xtext.peweb.question.ui.keyword_Q"/>
+		</page>
+		<page
+			category="ox.xtext.peweb.question.Q"
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.syntaxcoloring.SyntaxColoringPreferencePage"
+			id="ox.xtext.peweb.question.Q.coloring"
+			name="Syntax Coloring">
+			<keywordReference id="ox.xtext.peweb.question.ui.keyword_Q"/>
+		</page>
+		<page
+			category="ox.xtext.peweb.question.Q"
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.templates.XtextTemplatePreferencePage"
+			id="ox.xtext.peweb.question.Q.templates"
+			name="Templates">
+			<keywordReference id="ox.xtext.peweb.question.ui.keyword_Q"/>
+		</page>
+	</extension>
+	<extension
+			point="org.eclipse.ui.propertyPages">
+		<page
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.preferences.LanguageRootPreferencePage"
+			id="ox.xtext.peweb.question.Q"
+			name="Q">
+			<keywordReference id="ox.xtext.peweb.question.ui.keyword_Q"/>
+			<enabledWhen>
+				<adapt type="org.eclipse.core.resources.IProject"/>
+			</enabledWhen>
+			<filter name="projectNature" value="org.eclipse.xtext.ui.shared.xtextNature"/>
+		</page>
+	</extension>
+	<extension
+		point="org.eclipse.ui.keywords">
+		<keyword
+			id="ox.xtext.peweb.question.ui.keyword_Q"
+			label="Q"/>
+	</extension>
+	<extension
+		point="org.eclipse.ui.commands">
+	<command
+			description="Trigger expensive validation"
+			id="ox.xtext.peweb.question.Q.validate"
+			name="Validate">
+	</command>
+	<!-- copy qualified name -->
+	<command
+			id="org.eclipse.xtext.ui.editor.copyqualifiedname.EditorCopyQualifiedName"
+			categoryId="org.eclipse.ui.category.edit"
+			description="Copy the qualified name for the selected element"
+			name="Copy Qualified Name">
+	</command>
+	<command
+			id="org.eclipse.xtext.ui.editor.copyqualifiedname.OutlineCopyQualifiedName"
+			categoryId="org.eclipse.ui.category.edit"
+			description="Copy the qualified name for the selected element"
+			name="Copy Qualified Name">
+	</command>
+	</extension>
+	<extension point="org.eclipse.ui.menus">
+		<menuContribution
+			locationURI="popup:#TextEditorContext?after=group.edit">
+			 <command
+				 commandId="ox.xtext.peweb.question.Q.validate"
+				 style="push"
+				 tooltip="Trigger expensive validation">
+			<visibleWhen checkEnabled="false">
+				<reference
+					definitionId="ox.xtext.peweb.question.Q.Editor.opened">
+				</reference>
+			</visibleWhen>
+		</command>
+		</menuContribution>
+		<!-- copy qualified name -->
+		<menuContribution locationURI="popup:#TextEditorContext?after=copy">
+			<command commandId="org.eclipse.xtext.ui.editor.copyqualifiedname.EditorCopyQualifiedName"
+				style="push" tooltip="Copy Qualified Name">
+				<visibleWhen checkEnabled="false">
+					<reference definitionId="ox.xtext.peweb.question.Q.Editor.opened" />
+				</visibleWhen>
+			</command>
+		</menuContribution>
+		<menuContribution locationURI="menu:edit?after=copy">
+			<command commandId="org.eclipse.xtext.ui.editor.copyqualifiedname.EditorCopyQualifiedName"
+				style="push" tooltip="Copy Qualified Name">
+				<visibleWhen checkEnabled="false">
+					<reference definitionId="ox.xtext.peweb.question.Q.Editor.opened" />
+				</visibleWhen>
+			</command>
+		</menuContribution>
+		<menuContribution locationURI="popup:org.eclipse.xtext.ui.outline?after=additions">
+			<command commandId="org.eclipse.xtext.ui.editor.copyqualifiedname.OutlineCopyQualifiedName"
+				style="push" tooltip="Copy Qualified Name">
+				<visibleWhen checkEnabled="false">
+					<and>
+						<reference definitionId="ox.xtext.peweb.question.Q.XtextEditor.opened" />
+						<iterate>
+							<adapt type="org.eclipse.xtext.ui.editor.outline.IOutlineNode" />
+						</iterate>
+					</and>
+				</visibleWhen>
+			</command>
+		</menuContribution>
+	</extension>
+	<extension point="org.eclipse.ui.menus">
+		<menuContribution locationURI="popup:#TextEditorContext?endof=group.find">
+			<command commandId="org.eclipse.xtext.ui.editor.FindReferences">
+				<visibleWhen checkEnabled="false">
+					<reference definitionId="ox.xtext.peweb.question.Q.Editor.opened">
+					</reference>
+				</visibleWhen>
+			</command>
+		</menuContribution>
+	</extension>
+	<extension point="org.eclipse.ui.handlers">
+		<handler
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.findrefs.FindReferencesHandler"
+			commandId="org.eclipse.xtext.ui.editor.FindReferences">
+			<activeWhen>
+				<reference
+					definitionId="ox.xtext.peweb.question.Q.Editor.opened">
+				</reference>
+			</activeWhen>
+		</handler>
+	</extension>
+	<extension point="org.eclipse.core.contenttype.contentTypes">
+		<content-type
+			base-type="org.eclipse.core.runtime.text"
+			file-extensions="q"
+			id="ox.xtext.peweb.question.Q.contenttype"
+			name="Q File"
+			priority="normal">
+		</content-type>
+	</extension>
+	<!-- adding resource factories -->
+	<extension
+		point="org.eclipse.emf.ecore.extension_parser">
+		<parser
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.resource.IResourceFactory"
+			type="q">
+		</parser>
+	</extension>
+	<extension point="org.eclipse.xtext.extension_resourceServiceProvider">
+		<resourceServiceProvider
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.resource.IResourceUIServiceProvider"
+			uriExtension="q">
+		</resourceServiceProvider>
+	</extension>
+	<!-- marker definitions for ox.xtext.peweb.question.Q -->
+	<extension
+			id="q.check.fast"
+			name="Q Problem"
+			point="org.eclipse.core.resources.markers">
+		<super type="org.eclipse.xtext.ui.check.fast"/>
+		<persistent value="true"/>
+	</extension>
+	<extension
+			id="q.check.normal"
+			name="Q Problem"
+			point="org.eclipse.core.resources.markers">
+		<super type="org.eclipse.xtext.ui.check.normal"/>
+		<persistent value="true"/>
+	</extension>
+	<extension
+			id="q.check.expensive"
+			name="Q Problem"
+			point="org.eclipse.core.resources.markers">
+		<super type="org.eclipse.xtext.ui.check.expensive"/>
+		<persistent value="true"/>
+	</extension>
+	<extension point="org.eclipse.xtext.builder.participant">
+		<participant
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.builder.IXtextBuilderParticipant"
+			fileExtensions="q"/>
+	</extension>
+	<extension point="org.eclipse.ui.preferencePages">
+		<page
+			category="ox.xtext.peweb.question.Q"
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.builder.preferences.BuilderPreferencePage"
+			id="ox.xtext.peweb.question.Q.compiler.preferencePage"
+			name="Compiler">
+			<keywordReference id="ox.xtext.peweb.question.ui.keyword_Q"/>
+		</page>
+	</extension>
+	<extension point="org.eclipse.ui.propertyPages">
+		<page
+			category="ox.xtext.peweb.question.Q"
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.builder.preferences.BuilderPreferencePage"
+			id="ox.xtext.peweb.question.Q.compiler.propertyPage"
+			name="Compiler">
+			<keywordReference id="ox.xtext.peweb.question.ui.keyword_Q"/>
+			<enabledWhen>
+				<adapt type="org.eclipse.core.resources.IProject"/>
+			</enabledWhen>
+			<filter name="projectNature" value="org.eclipse.xtext.ui.shared.xtextNature"/>
+		</page>
+	</extension>
+	<extension point="org.eclipse.ui.menus">
+		<menuContribution locationURI="popup:#TextEditorContext?after=xtext.ui.openDeclaration">
+			<command
+				commandId="org.eclipse.xtext.ui.OpenGeneratedFileCommand"
+				id="ox.xtext.peweb.question.Q.OpenGeneratedCode"
+				style="push">
+				<visibleWhen checkEnabled="false">
+					<reference definitionId="ox.xtext.peweb.question.Q.Editor.opened" />
+				</visibleWhen>
+			</command>
+		</menuContribution>
+	</extension>
+	<extension point="org.eclipse.ui.handlers">
+		<handler
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.generator.trace.OpenGeneratedFileHandler"
+			commandId="org.eclipse.xtext.ui.OpenGeneratedFileCommand">
+			<activeWhen>
+				<reference definitionId="ox.xtext.peweb.question.Q.Editor.opened" />
+			</activeWhen>
+		</handler>
+	</extension>
+	<!-- Quick Outline -->
+	<extension
+		point="org.eclipse.ui.handlers">
+		<handler 
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.outline.quickoutline.ShowQuickOutlineActionHandler"
+			commandId="org.eclipse.xtext.ui.editor.outline.QuickOutline">
+			<activeWhen>
+				<reference
+					definitionId="ox.xtext.peweb.question.Q.Editor.opened">
+				</reference>
+			</activeWhen>
+		</handler>
+	</extension>
+	<extension
+		point="org.eclipse.ui.commands">
+		<command
+			description="Open the quick outline."
+			id="org.eclipse.xtext.ui.editor.outline.QuickOutline"
+			name="Quick Outline">
+		</command>
+	</extension>
+	<extension point="org.eclipse.ui.menus">
+		<menuContribution
+			locationURI="popup:#TextEditorContext?after=group.open">
+			<command commandId="org.eclipse.xtext.ui.editor.outline.QuickOutline"
+				style="push"
+				tooltip="Open Quick Outline">
+				<visibleWhen checkEnabled="false">
+					<reference definitionId="ox.xtext.peweb.question.Q.Editor.opened"/>
+				</visibleWhen>
+			</command>
+		</menuContribution>
+	</extension>
+	<!-- quickfix marker resolution generator for ox.xtext.peweb.question.Q -->
+	<extension
+			point="org.eclipse.ui.ide.markerResolution">
+		<markerResolutionGenerator
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.quickfix.MarkerResolutionGenerator"
+			markerType="ox.xtext.peweb.question.ui.q.check.fast">
+			<attribute
+				name="FIXABLE_KEY"
+				value="true">
+			</attribute>
+		</markerResolutionGenerator>
+		<markerResolutionGenerator
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.quickfix.MarkerResolutionGenerator"
+			markerType="ox.xtext.peweb.question.ui.q.check.normal">
+			<attribute
+				name="FIXABLE_KEY"
+				value="true">
+			</attribute>
+		</markerResolutionGenerator>
+		<markerResolutionGenerator
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.quickfix.MarkerResolutionGenerator"
+			markerType="ox.xtext.peweb.question.ui.q.check.expensive">
+			<attribute
+				name="FIXABLE_KEY"
+				value="true">
+			</attribute>
+		</markerResolutionGenerator>
+	</extension>
+	<!-- Rename Refactoring -->
+	<extension point="org.eclipse.ui.handlers">
+		<handler 
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.refactoring.ui.DefaultRenameElementHandler"
+			commandId="org.eclipse.xtext.ui.refactoring.RenameElement">
+			<activeWhen>
+				<reference
+					definitionId="ox.xtext.peweb.question.Q.Editor.opened">
+				</reference>
+			</activeWhen>
+		</handler>
+	</extension>
+	<extension point="org.eclipse.ui.menus">
+		<menuContribution
+			locationURI="popup:#TextEditorContext?after=group.edit">
+			<command commandId="org.eclipse.xtext.ui.refactoring.RenameElement"
+				style="push">
+				<visibleWhen checkEnabled="false">
+					<reference
+						definitionId="ox.xtext.peweb.question.Q.Editor.opened">
+					</reference>
+				</visibleWhen>
+			</command>
+		</menuContribution>
+	</extension>
+	<extension point="org.eclipse.ui.preferencePages">
+		<page
+			category="ox.xtext.peweb.question.Q"
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.refactoring.ui.RefactoringPreferencePage"
+			id="ox.xtext.peweb.question.Q.refactoring"
+			name="Refactoring">
+			<keywordReference id="ox.xtext.peweb.question.ui.keyword_Q"/>
+		</page>
+	</extension>
+	<extension point="org.eclipse.compare.contentViewers">
+		<viewer id="ox.xtext.peweb.question.Q.compare.contentViewers"
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.compare.InjectableViewerCreator"
+			extensions="q">
+		</viewer>
+		<contentTypeBinding
+			contentTypeId="ox.xtext.peweb.question.Q.contenttype"
+			contentViewerId="ox.xtext.peweb.question.Q.compare.contentViewers" />
+	</extension>
+	<extension point="org.eclipse.compare.contentMergeViewers">
+		<viewer id="ox.xtext.peweb.question.Q.compare.contentMergeViewers"
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.compare.InjectableViewerCreator"
+			extensions="q" label="Q Compare">
+		</viewer>
+		<contentTypeBinding
+			contentTypeId="ox.xtext.peweb.question.Q.contenttype"
+			contentMergeViewerId="ox.xtext.peweb.question.Q.compare.contentMergeViewers" />
+	</extension>
+	<extension point="org.eclipse.ui.editors.documentProviders">
+		<provider id="ox.xtext.peweb.question.Q.editors.documentProviders"
+			class="ox.xtext.peweb.question.ui.QExecutableExtensionFactory:org.eclipse.xtext.ui.editor.model.XtextDocumentProvider"
+			extensions="q">
+		</provider>
+	</extension>
+	<extension point="org.eclipse.team.core.fileTypes">
+		<fileTypes
+			extension="q"
+			type="text">
+		</fileTypes>
+	</extension>
+</plugin>

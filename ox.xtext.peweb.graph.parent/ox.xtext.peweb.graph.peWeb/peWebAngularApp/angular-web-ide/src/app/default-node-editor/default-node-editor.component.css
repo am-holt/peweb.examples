@@ -1,0 +1,38 @@
+.default-node-editor{
+	cursor: pointer;
+	padding-left: 10px;
+}
+
+.removeBtn{
+  cursor: pointer;
+  background: #d12e0e;
+	border-radius: 15px;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+	border: 0;
+	border-color: transparent;
+}
+
+ul li{
+	margin: 0 0 3px 0;
+}
+
+
+ul li ul li{
+	margin: 0.2em 0 0.2em 0;
+	list-style-type: none;
+}
+
+.textbtn{
+  cursor: pointer;
+  background: #1d1f2b;
+  border-radius: 3px;
+  padding-left:  1em;
+  padding-right: 1em;
+}
+
+select{
+  cursor: pointer;
+  background: #1d1f2b;
+  border-radius: 3px;
+}

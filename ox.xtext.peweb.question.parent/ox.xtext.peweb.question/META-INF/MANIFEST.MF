@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ox.xtext.peweb.question
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: ox.xtext.peweb.question; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.antlr.runtime,
+ org.eclipse.xtext.util,
+ org.eclipse.emf.common,
+ org.eclipse.xtend.lib;bundle-version="2.14.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: ox.xtext.peweb.question.q,
+ ox.xtext.peweb.question.scoping,
+ ox.xtext.peweb.question.generator,
+ ox.xtext.peweb.question,
+ ox.xtext.peweb.question.q.util,
+ ox.xtext.peweb.question.validation,
+ ox.xtext.peweb.question.parser.antlr.internal,
+ ox.xtext.peweb.question.serializer,
+ ox.xtext.peweb.question.parser.antlr,
+ ox.xtext.peweb.question.services,
+ ox.xtext.peweb.question.q.impl
+Import-Package: org.apache.log4j,
+ org.eclipse.xtext.generator

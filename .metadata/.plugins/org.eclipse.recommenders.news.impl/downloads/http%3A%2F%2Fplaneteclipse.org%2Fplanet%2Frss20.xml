@@ -1,0 +1,1002 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+
+<channel>
+	<title>Planet Eclipse</title>
+	<link>http://planeteclipse.org/planet/</link>
+	<language>en</language>
+	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
+
+<item>
+	<title>Eclipse Announcements: EclipseCon France 2018: Register Early!</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/JlZYcHvzL3E/registration</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/JlZYcHvzL3E/registration</link>
+	<description>Prices go up after April 30, so register now.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/JlZYcHvzL3E&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 25 Apr 2018 13:30:00 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Survey of 1800+ developers now released on new Jakarta EE website</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/chHefpYH1Hk/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/chHefpYH1Hk/</link>
+	<description>Survey of 1,800+ Java developers reveals &quot;cloud native&quot; top requirement in platform's evolution.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/chHefpYH1Hk&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 24 Apr 2018 14:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: JBoss Tools and Red Hat Developer Studio for Eclipse Oxygen.3a</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/11.3.0.ga-for-oxygen.3a.html</guid>
+	<link>https://tools.jboss.org/blog/11.3.0.ga-for-oxygen.3a.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/oxygen/4.5.3.Final.html&quot;&gt;JBoss Tools 4.5.3&lt;/a&gt; and &lt;a href=&quot;https://tools.jboss.org/downloads/devstudio/oxygen/11.3.0.GA.html&quot;&gt;Red Hat JBoss Developer Studio 11.3&lt;/a&gt; for Eclipse Oxygen.3a are here waiting for you. Check it out!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;devstudio11&quot; src=&quot;https://tools.jboss.org/blog/images/devstudio11.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;installation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our &lt;a href=&quot;https://www.jboss.org/products/devstudio.html&quot;&gt;JBoss Products page&lt;/a&gt; and run it like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;literalblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre&gt;java -jar jboss-devstudio-&amp;lt;installername&amp;gt;.jar&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This release requires at least Eclipse 4.7 (Oxygen) but we recommend
+      using the latest &lt;a href=&quot;http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen3a&quot;&gt;Eclipse 4.7.3a Oxygen JEE Bundle&lt;/a&gt; since then you get most of the dependencies preinstalled.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under &quot;JBoss Tools&quot; or &quot;Red Hat JBoss Developer Studio&quot;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For JBoss Tools, you can also use our update site directly.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;literalblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre&gt;http://download.jboss.org/jbosstools/oxygen/stable/updates/&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is new?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Our main focus for this release was on adoption of Java10, improvements for container based development and bug fixing.
+      Eclipse Oxygen itself has &lt;a href=&quot;https://www.youtube.com/playlist?list=PLy7t4z5SYNaTM66CahSlkMh5YkndYXMUq&quot;&gt;a lot of new cool stuff&lt;/a&gt; but let me highlight just a few updates in both Eclipse Oxygen and JBoss Tools plugins that I think are worth mentioning.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;openshift-3&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-3&quot;&gt;&lt;/a&gt;OpenShift 3&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;cdk-and-minishift-server-adapter-better-developer-experience&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#cdk-and-minishift-server-adapter-better-developer-experience&quot;&gt;&lt;/a&gt;CDK and Minishift Server Adapter better developer experience&lt;/h4&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;minishift_home-setting&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#minishift_home-setting&quot;&gt;&lt;/a&gt;MINISHIFT_HOME setting&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When working with both CDK and upstream Minishift, it is recommanded to distinguish environments through the MINISHIFT_HOME variable.
+      It was possible before to use this parameter but it requires a two steps process:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;first create the server adapter (through the wizard)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;then change the MINISHIFT_HOME in the server adapter editor&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;It is now possible to set this parameter from the server adapter wizard. So now, everything is correctly setup when you create the
+      server adapter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Let’s see an example with the CDK server adapter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;From the &lt;strong&gt;Servers&lt;/strong&gt; view, select the new Server menu item and enter cdk in the filter:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Select Red Hat Container Development Kit 3.2+&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Click the &lt;strong&gt;Next&lt;/strong&gt; button:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard2&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard2.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The MINISHIFT_HOME parameter can be set here and is defaulted.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;cdk-and-minishift-server-adapter-runtime-download&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#cdk-and-minishift-server-adapter-runtime-download&quot;&gt;&lt;/a&gt;CDK and Minishift Server Adapter runtime download&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When working with both CDK and upstream Minishift, you needed to have previously downloaded the CDK
+      or Minishift binary. It is now possible to download the runtime to a specific folder when you create
+      the server adapter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Let’s see an example with the CDK server adapter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;From the &lt;strong&gt;Servers&lt;/strong&gt; view, select the new Server menu item and enter cdk in the filter:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Select Red Hat Container Development Kit 3.2+&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Click the &lt;strong&gt;Next&lt;/strong&gt; button:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard3&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard3.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In order to download the runtime, click the &lt;strong&gt;Download and install runtime…​&lt;/strong&gt; link:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard4&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard4.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Select the version of the runtime you want to download&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard5&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard5.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Click the &lt;strong&gt;Next&lt;/strong&gt; button:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard6&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard6.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You need an account to download the CDK. If you already had configured credentials, select the one you
+      want to use. If you didn’t, click the &lt;strong&gt;Add&lt;/strong&gt; button to add your credentials.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard7&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard7.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Click the &lt;strong&gt;Next&lt;/strong&gt; button. Your credentials will be validated, and upon success, you must accept
+      the license agreement:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard8&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard8.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Accept the license agreement and click the &lt;strong&gt;Next&lt;/strong&gt; button:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard9&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard9.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can choose the folder where you want the runtime to be installed. Once you’ve set it,
+      click the &lt;strong&gt;Finish&lt;/strong&gt; button:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The download of the runtime will be started and you should see the progression on the server adapter
+      wizard:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard10&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard10.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once the download is completed, you will notice that the &lt;strong&gt;Minishift Binary&lt;/strong&gt; and &lt;strong&gt;Username&lt;/strong&gt; fields have been filled:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard11&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard11.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Click the &lt;strong&gt;Finish&lt;/strong&gt; button to create the server adapter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Please note that if it’s the first time you install CDK, you must perform an initialization. In the &lt;strong&gt;Servers&lt;/strong&gt; view, right click
+      the server and select the &lt;strong&gt;Setup CDK&lt;/strong&gt; menu item:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard12&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard12.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard13&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard13.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Please note that the &lt;strong&gt;setup-cdk&lt;/strong&gt; command will also be automatically run when you start the CDK server adapter if the
+      MINISHIFT_HOME environment is detected uninitialized after user approval.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;minishift-server-adapter&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#minishift-server-adapter&quot;&gt;&lt;/a&gt;Minishift Server Adapter&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A new server adapter has been added to support upstream Minishift.
+      While the server adapter itself has limited functionality, it is able to start and stop the Minishift virtual machine via its minishift binary.
+      From the Servers view, click &lt;strong&gt;New&lt;/strong&gt; and then type minishift, that will bring up a command to setup and/or launch the Minishift server adapter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;All you have to do is set the location of the minishift binary file, the type of virtualization hypervisor
+      and an optional Minishift profile name.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once you’re finished, a new Minishift Server adapter will then be created and visible in the Servers view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter2&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter2.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once the server is started, Docker and OpenShift connections should appear in their respective views, allowing the user to quickly create a new Openshift application and begin developing their AwesomeApp in a highly-replicatable environment.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter3&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter3.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter4&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter4.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The credentials framework still supports the JBoss.org credentials in case other services / components require or use this credentials domain.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;fuse-tooling&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-tooling&quot;&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;new-shortcuts-in-fuse-integration-perspective&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#new-shortcuts-in-fuse-integration-perspective&quot;&gt;&lt;/a&gt;New shortcuts in Fuse Integration perspective&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Shortcuts for the Java, Launch, and Debug perspectives and basic navigation operations are now provided within the Fuse Integration perspective.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The result is a set of buttons in the Toolbar:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;New Toolbar action&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/newToolbarAction.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;All of the associated keyboard shortcuts are also available, such as Ctrl+Shift+T to open a Java Type.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;performance-improvement-loading-advanced-tab-for-camel-endpoints&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#performance-improvement-loading-advanced-tab-for-camel-endpoints&quot;&gt;&lt;/a&gt;Performance improvement: Loading Advanced tab for Camel Endpoints&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The loading time of the &quot;Advanced&quot; tab in the Properties view for Camel Endpoints is greatly improved.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Advanced Tab in Properties view&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/advancedTab.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Previously, in the case of Camel Components that have a lot of parameters, it took several seconds to load the Advanced tab. For example, for the File component, it would take ~3.5s. It now takes ~350ms. The load time has been reduced by a factor of 10. (See this interesting &lt;a href=&quot;https://www.nngroup.com/articles/response-times-3-important-limits/&quot;&gt;article on response time&lt;/a&gt;)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;If you notice other places showing slow performance, you can file a report by using the &lt;a href=&quot;https://issues.jboss.org/browse/FUSETOOLS&quot;&gt;Fuse Tooling issue tracker&lt;/a&gt;. The Fuse Tooling team really appreciates your help. Your feedback contributes to our development priorities and improves the Fuse Tooling user experience.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;display-fuse-version-corresponding-to-camel-version-proposed&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#display-fuse-version-corresponding-to-camel-version-proposed&quot;&gt;&lt;/a&gt;Display Fuse version corresponding to Camel version proposed&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When you create a new project, you select the Camel version from a list. Now, the list of Camel versions includes the Fuse version to help you choose the version that corresponds to your production version.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Fuse Version also displayed in drop-down list close to Camel version&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/listOfFuseVersion.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;update-validation-for-similar-ids-between-a-component-and-its-definition&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#update-validation-for-similar-ids-between-a-component-and-its-definition&quot;&gt;&lt;/a&gt;Update validation for similar IDs between a component and its definition&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Starting with Camel 2.20, you can use similar IDs for the component name and its definition unless the specific property &quot;registerEndpointIdsFromRoute&quot; is provided.
+      The validation process checks the Camel version and the value of the &quot;registerEndpointIdsFromRoute&quot; property.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For example:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;lt;from id=&quot;timer&quot; uri=&quot;timer:timerName&quot;/&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;improved-guidance-in-method-selection-for-factory-methods-on-global-bean&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#improved-guidance-in-method-selection-for-factory-methods-on-global-bean&quot;&gt;&lt;/a&gt;Improved guidance in method selection for factory methods on Global Bean&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When selecting factory method on a Global bean, a lot of possibilities were proposed in the user interface. The list of factory methods for a global bean is now limited to only those methods that match the constraints of the bean’s global definition type (bean or bean factory).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;customize-eip-labels-in-the-diagram&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#customize-eip-labels-in-the-diagram&quot;&gt;&lt;/a&gt;Customize EIP labels in the diagram&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Fuse Tooling preferences page for the Editor view includes a new &quot;Preferred Labels&quot; option.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Fuse Tooling editor preference page&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/prefEIPLabels.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Use this option to define the label of EIP components (except endpoints) shown in the Editor’s Design view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Dialog for defining the display text for an EIP&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/prefEIPLabelsResult.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;fuse-ignite-technical-extension-templates&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-ignite-technical-extension-templates&quot;&gt;&lt;/a&gt;Fuse Ignite Technical Extension templates&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The existing template for &quot;Custom step using a Camel Route&quot; has been updated to work with Fuse 7 Tech Preview 4.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Two new templates have been added:
+      - Custom step using Java Bean
+      - Custom connector&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;New Fuse Ignite wizard with 3 options&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/igniteExtensionWizard10.3.0.AM3.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;improvements-of-the-wizard-to-create-a-fuse-integration-project&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#improvements-of-the-wizard-to-create-a-fuse-integration-project&quot;&gt;&lt;/a&gt;Improvements of the wizard to create a Fuse Integration project&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The creation wizard provides better guidance for the targeted deployment environment:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;New Fuse Integration Project wizard page to select environment&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/newFuseIntegrationWizard-environment.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;More place is available to choose the templates and they are now filtered based on the targeted environment:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;New Fuse Integration Project wizard page to select templates&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/newFuseIntegrationWizard-templates.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;It also points out to other places to find different examples for advanced users (see the link at the bottom of the previous screenshot).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;camel-rest-dsl-editor-technical-preview&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#camel-rest-dsl-editor-technical-preview&quot;&gt;&lt;/a&gt;Camel Rest DSL editor (Technical preview)&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Camel is providing a Rest DSL to help the integration through Rest endpoints. Fuse Tooling is now providing a new tab in read-only mode to visualize the Rest endpoints defined.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Rest DSL editor tab in read-only mode&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/restViewer.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;It is currently in Tech Preview and needs to be activated in Window → Preferences → Fuse Tooling → Editor → Enable Read Only Tech preview REST DSL tab.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Work is still ongoing and feedback is very welcome on this new feature, you can comment on &lt;a href=&quot;https://issues.jboss.org/browse/FUSETOOLS-1287&quot;&gt;this JIRA epic&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;dozer-upgrade-and-migration&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#dozer-upgrade-and-migration&quot;&gt;&lt;/a&gt;Dozer upgrade and migration&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When upgrading from Camel &amp;lt; 2.20 to Camel &amp;gt; 2.20, the Dozer dependency has been upgraded to a version not backward-compatible
+      If you open a Data transformation based on Dozer in Fuse Tooling, it will propose to migrate the file used for the transformation (technically changing the namespace). It allow to continue to use the Data Transformation editor and have - in most cases - the Data Transformation working at runtime with Camel &amp;gt; 2.20.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;hibernate-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#hibernate-tools&quot;&gt;&lt;/a&gt;Hibernate Tools&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;hibernate-runtime-provider-updates&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#hibernate-runtime-provider-updates&quot;&gt;&lt;/a&gt;Hibernate Runtime Provider Updates&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A number of additions and updates have been performed on the available Hibernate runtime  providers.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;new-hibernate-5-3-runtime-provider&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#new-hibernate-5-3-runtime-provider&quot;&gt;&lt;/a&gt;New Hibernate 5.3 Runtime Provider&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;With beta releases available in the Hibernate 5.3 stream, the time was right to make available a corresponding Hibernate 5.3 runtime provider. This runtime provider incorporates Hibernate Core version 5.3.0.Beta2 and Hibernate Tools version 5.3.0.Beta1.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot; style=&quot;text-align: center;&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;hibernate 5 3&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/hibernate/images/4.5.3.AM3/hibernate_5_3.png&quot; width=&quot;381&quot; /&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;title&quot;&gt;Figure 1. Hibernate 5.3 is available&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;other-runtime-provider-updates&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#other-runtime-provider-updates&quot;&gt;&lt;/a&gt;Other Runtime Provider Updates&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Hibernate 5.0 runtime provider now incorporates Hibernate Core version 5.0.12.Final and Hibernate Tools version 5.0.6.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Hibernate 5.1 runtime provider now incorporates Hibernate Core version 5.1.12.Final and Hibernate Tools version 5.1.7.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Hibernate 5.2 runtime provider now incorporates Hibernate Core version 5.2.15.Final and Hibernate Tools version 5.2.10.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;java-developement-tools-jdt&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#java-developement-tools-jdt&quot;&gt;&lt;/a&gt;Java Developement Tools (JDT)&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;support-for-java-10&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#support-for-java-10&quot;&gt;&lt;/a&gt;Support for Java™ 10&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The biggest part is the support for local variable type inference.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;add-java-10-jre&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#add-java-10-jre&quot;&gt;&lt;/a&gt;Add Java 10 JRE&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Basic necessity of recognizing a Java 10 for launching&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;j10&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/j10.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;And the compiler compliance option of 10&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;j10.compliance&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/j10.compliance.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;jep-286-var-compilation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#jep-286-var-compilation&quot;&gt;&lt;/a&gt;JEP 286 var - compilation&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Support for compilation of var as shown below&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.compile&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.compile.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Flagging of the compiler errors as expected, shown below&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.nocompile&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.nocompile.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Completion at places var is allowed&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.complete&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.complete.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Completion not offered at places var is not allowed&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.nocomplete&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.nocomplete.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Hover to reveal the javadoc&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.hover&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.hover.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Convert from var to the appropriate type using quick assist&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.vartotype&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.vartotype.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Convert from type to var using quick assist&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.typetovar&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.typetovar.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;general&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#general&quot;&gt;&lt;/a&gt;General&lt;/h3&gt;
+      
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;credentials-framework&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#credentials-framework&quot;&gt;&lt;/a&gt;Credentials Framework&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;sunsetting-jboss-org-credentials&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#sunsetting-jboss-org-credentials&quot;&gt;&lt;/a&gt;Sunsetting jboss.org credentials&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;code&gt;Download Runtimes&lt;/code&gt; and &lt;code&gt;CDK Server Adapter&lt;/code&gt; used the credentials framework to manage credentials. However, the JBoss.org credentials cannot be used any more
+      as the underlying service used by these components does not support these credentials.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;aerogear&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#aerogear&quot;&gt;&lt;/a&gt;Aerogear&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;aerogear-component-deprecation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#aerogear-component-deprecation&quot;&gt;&lt;/a&gt;Aerogear component deprecation&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Aerogear component has been marked deprecated as there is no more maintenance on the source code. It is still available in Red Hat Central
+      and may be removed in the future.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;arquillian&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#arquillian&quot;&gt;&lt;/a&gt;Arquillian&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;arquillian-component-removal&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#arquillian-component-removal&quot;&gt;&lt;/a&gt;Arquillian component removal&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Arquillian component has been removed from Red Hat Central as it has been deprecated since July 2017.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The last available update site release is here:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://download.jboss.org/jbosstools/oxygen/stable/updates/core/arquillian/&quot;&gt;Arquillian 1.2.601.v20171220-1317&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;browsersim&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#browsersim&quot;&gt;&lt;/a&gt;BrowserSim&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;browsersim-component-deprecation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#browsersim-component-deprecation&quot;&gt;&lt;/a&gt;BrowserSim component deprecation&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The BrowserSim component has been marked deprecated as there is no more maintenance on the source code. It is still available in Red Hat Central
+      and may be removed in the future.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;freemarker&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#freemarker&quot;&gt;&lt;/a&gt;Freemarker&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;freemarker-component-removal&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#freemarker-component-removal&quot;&gt;&lt;/a&gt;Freemarker component removal&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Freemarker component has been removed from Red Hat Central as it has been deprecated since July 2017.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The last available update site release is here:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://download.jboss.org/jbosstools/oxygen/stable/updates/core/freemarker/&quot;&gt;Freemarker 1.5.302.v20171212-1534&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;livereload&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#livereload&quot;&gt;&lt;/a&gt;LiveReload&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;livereload-component-deprecation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#livereload-component-deprecation&quot;&gt;&lt;/a&gt;LiveReload component deprecation&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The LiveReload component has been marked deprecated as there is no more maintenance on the source code. It is still available in Red Hat Central
+      and may be removed in the future.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;and-more&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#and-more&quot;&gt;&lt;/a&gt;And more…​&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can find more noteworthy updates in on &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.5.3.Final.html&quot;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-next&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-next&quot;&gt;&lt;/a&gt;What is next?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Having JBoss Tools 4.5.3 and Developer Studio 11.3 out we are already working on the next release for Eclipse Photon.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 24 Apr 2018 12:56:09 +0000</pubDate>
+</item>
+<item>
+	<title>Scott Lewis: ECF Photon adds Gogo Commands</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-20358640.post-1866288943800996883</guid>
+	<link>http://eclipseecf.blogspot.com/2018/04/ecf-photon-adds-gogo-commands.html</link>
+	<description>A &lt;a href=&quot;http://eclipseecf.blogspot.com/2018/04/ecf-photon-supports-bndtools.html&quot;&gt;third&lt;/a&gt; major enhancement for &lt;a href=&quot;http://www.eclipse.org/ecf&quot;&gt;ECF&lt;/a&gt;'s implementation of &lt;a href=&quot;https://wiki.eclipse.org/Eclipse_Communication_Framework_Project#OSGi_Remote_Services&quot;&gt;OSGi Remote Services&lt;/a&gt; is the addition of Apache Gogo console commands for examining the existing state of remote services, and the ability to export a service and import an endpoint from the OSGi console.&lt;br /&gt;&lt;br /&gt;See this &lt;a href=&quot;https://wiki.eclipse.org/Gogo_Commands_for_Remote_Services_Development&quot;&gt;wiki page describing the new commands and their usage&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</description>
+	<pubDate>Tue, 24 Apr 2018 01:34:59 +0000</pubDate>
+	<author>noreply@blogger.com (Scott Lewis)</author>
+</item>
+<item>
+	<title>EclipseCon France 2018: Interview: Making EMF Intelligent with AI</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/france2018/news/3881 at https://www.eclipsecon.org/france2018</guid>
+	<link>https://www.eclipsecon.org/france2018/news/interview-making-emf-intelligent-ai</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;em&gt;Niranjan Babu's talk &lt;a href=&quot;https://www.eclipsecon.org/france2018/session/making-emf-intelligent-ai&quot;&gt;Making EMF Intelligent with AI&lt;/a&gt; was chosen as an early bird selection. Read this brief Q&amp;amp;A with Niranjan to find out more about the I-EMF project.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: How did you begin with the idea of combining AI with EMF?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A: &lt;/strong&gt;EMF is used extensively as a modeling framework in the automotive world and the entire world is moving towards model driven development. These modeling frameworks are thus critical in determining the efficiency of software development. I thought the best way to improve efficiency is to make these models intelligent. That is when machine learning came into picture and I decided to combine machine learning with EMF.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/france2018/news/interview-making-emf-intelligent-ai&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/france2018/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/niranjan.jpg?itok=Fw7l_4Ve&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 23 Apr 2018 08:55:31 +0000</pubDate>
+</item>
+<item>
+	<title>InfoQ Eclipse feed: Eclipse Photon Nears Release</title>
+	<guid isPermaLink="true">http://www.infoq.com/news/2018/04/eclipse-photon?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
+	<link>http://www.infoq.com/news/2018/04/eclipse-photon?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
+	<description>&lt;img src=&quot;http://www.infoq.com/styles/i/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Eclipse Photon, the seventeenth annual release of the Eclipse Project, will be released in June, but we’re keeping an eye on all the new and noteworthy features in each pre-release milestone. Milestone 6 (M6) offers noteworthy features for the Eclipse Platform, Java Development Tools (JDT), Plug-in Development Environment (PDE), Equinox sub-project, and for JDT and Eclipse Platform developers.&lt;/p&gt; &lt;i&gt;By Kesha Williams&lt;/i&gt;</description>
+	<pubDate>Mon, 23 Apr 2018 05:30:00 +0000</pubDate>
+</item>
+<item>
+	<title>Donald Raab: EC by Example: FlatCollect</title>
+	<guid isPermaLink="false">https://medium.com/p/3efe24e43da2</guid>
+	<link>https://medium.com/@donraab/ec-by-example-flatcollect-3efe24e43da2?source=rss-df39b86e9f04------2</link>
+	<description>&lt;p&gt;Learn how to flatten a collection of collections into a single collection using the &lt;em&gt;flatCollect&lt;/em&gt; method in &lt;a href=&quot;https://www.eclipse.org/collections/&quot;&gt;Eclipse Collections&lt;/a&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*D0U-Qv3YU3K3eg7uIQN-3g.png&quot; /&gt;Organize a collection of collections into a single collection&lt;/figure&gt;&lt;h3&gt;What is FlatCollect?&lt;/h3&gt;&lt;p&gt;The method &lt;em&gt;flatCollect&lt;/em&gt; is a special form of &lt;em&gt;collect&lt;/em&gt;, where the output of the &lt;em&gt;Function&lt;/em&gt; provided to the method must always be some &lt;em&gt;Iterable&lt;/em&gt; type. The purpose of flatCollect is to provide a transformation that flattens a collection of collections. This method is similar in function to &lt;em&gt;flatMap&lt;/em&gt; in Java Streams. The primary difference is that the &lt;em&gt;Function&lt;/em&gt; for &lt;em&gt;flatCollect&lt;/em&gt; must return an &lt;em&gt;Iterable&lt;/em&gt;, while the &lt;em&gt;Function&lt;/em&gt; for &lt;em&gt;flatMap&lt;/em&gt; must return a &lt;em&gt;Stream&lt;/em&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/640/1*borarfXLzhw3z0qJdYYhaw.png&quot; /&gt;Creating Intervals from Integers and flattening them to a List&lt;/figure&gt;&lt;h3&gt;FlatCollecting a List (Java 8)&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void flatCollectingAListJava8()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; list = &lt;em&gt;mList&lt;/em&gt;(5, 4, 3, 2, 1);&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; result = list.&lt;strong&gt;flatCollect&lt;/strong&gt;(Interval::&lt;em&gt;oneTo&lt;/em&gt;);&lt;br /&gt;&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; expected = &lt;em&gt;mList&lt;/em&gt;(&lt;br /&gt;            1, 2, 3, 4, 5,&lt;br /&gt;            1, 2, 3, 4,&lt;br /&gt;            1, 2, 3,&lt;br /&gt;            1, 2,&lt;br /&gt;            1);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, result);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Collection Pipelines&lt;/h3&gt;&lt;p&gt;Martin Fowler describes the Collection Pipeline pattern &lt;a href=&quot;https://martinfowler.com/articles/collection-pipeline/&quot;&gt;here&lt;/a&gt;. Here is an example of &lt;em&gt;flatCollect&lt;/em&gt; used in a collection pipeline to find all of the methods that contain “flat” in their name for a List of classes. Here I used a overloaded form of &lt;em&gt;flatCollect&lt;/em&gt; which takes a target collection as an argument.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void flatCollectingAListOfMethodsToASetJava8()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Class&amp;lt;?&amp;gt;&amp;gt; list = &lt;em&gt;mList&lt;/em&gt;(&lt;br /&gt;            ListIterable.class,&lt;br /&gt;            MutableList.class,&lt;br /&gt;            ImmutableList.class);&lt;br /&gt;    MutableSet&amp;lt;String&amp;gt; result = list&lt;br /&gt;            .collect(Class::getMethods)&lt;br /&gt;            .&lt;strong&gt;flatCollect&lt;/strong&gt;(Lists.&lt;strong&gt;&lt;em&gt;fixedSize&lt;/em&gt;&lt;/strong&gt;::with, &lt;em&gt;mSet&lt;/em&gt;())&lt;br /&gt;            .collect(Method::getName)&lt;br /&gt;            .select(each -&amp;gt; each.toLowerCase().contains(&lt;strong&gt;&quot;flat&quot;&lt;/strong&gt;));&lt;br /&gt;&lt;br /&gt;    MutableSet&amp;lt;String&amp;gt; expected = mSet(&lt;strong&gt;&quot;flatCollect&quot;&lt;/strong&gt;);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, result);&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;The method &lt;em&gt;getMethods&lt;/em&gt; on class returns an array, so in the Function I pass to flatCollect, I convert the array to a &lt;em&gt;List&lt;/em&gt;. If &lt;em&gt;getMethods&lt;/em&gt; had returned a List or some other Iterable type, I could have simply used &lt;em&gt;flatCollect&lt;/em&gt; passing Class::&lt;em&gt;getMethods&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;Here’s the same example using Java 10 with Local-variable Type Inference.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void flatCollectingAListOfMethodsToASetJava10()&lt;br /&gt;{&lt;br /&gt;    var list = &lt;em&gt;mList&lt;/em&gt;(&lt;br /&gt;            ListIterable.class,&lt;br /&gt;            MutableList.class,&lt;br /&gt;            ImmutableList.class);&lt;br /&gt;    var resultSet = list&lt;br /&gt;            .collect(Class::getMethods)&lt;br /&gt;            .&lt;strong&gt;flatCollect&lt;/strong&gt;(Lists.&lt;strong&gt;&lt;em&gt;fixedSize&lt;/em&gt;&lt;/strong&gt;::with, &lt;em&gt;mSet&lt;/em&gt;())&lt;br /&gt;            .collect(Method::getName)&lt;br /&gt;            .select(each -&amp;gt; each.toLowerCase().contains(&lt;strong&gt;&quot;flat&quot;&lt;/strong&gt;));&lt;br /&gt;&lt;br /&gt;    var expected = mSet(&lt;strong&gt;&quot;flatCollect&quot;&lt;/strong&gt;);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, resultSet);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;&lt;a href=&quot;https://medium.com/@donraab/symmetric-sympathy-2c59d4541d60&quot;&gt;Symmetric Sympathy&lt;/a&gt; Strikes Again&lt;/h3&gt;&lt;p&gt;While there exists a method named &lt;em&gt;collectWith&lt;/em&gt; which is a form of &lt;em&gt;collect&lt;/em&gt; that takes a &lt;em&gt;Function2&lt;/em&gt;, there currently is no method named &lt;em&gt;flatCollectWith&lt;/em&gt; which also takes a &lt;em&gt;Function2&lt;/em&gt;. I discovered the lack of flatCollectWith (again) this week. I have submitted an &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/issues/504&quot;&gt;issue&lt;/a&gt; for this feature and began working on it over the weekend. I expect to have the &lt;em&gt;flatCollectWith&lt;/em&gt; implementation tested and completed over the next week or two.&lt;/p&gt;&lt;h3&gt;APIs covered in the examples&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/MutableList.html#flatCollect-org.eclipse.collections.api.block.function.Function-&quot;&gt;flatCollect&lt;/a&gt;— transforms elements of a source collection to a new collection by flattening collections in the source collection to a single collection&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/factory/Iterables.html#mList-T...-&quot;&gt;mList&lt;/a&gt; — creates a MutableList&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/factory/Iterables.html#mSet--&quot;&gt;mSet&lt;/a&gt; — creates a MutableSet&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/list/Interval.html#oneTo-int-&quot;&gt;Interval.oneTo(int)&lt;/a&gt; — creates an Interval starting from 1 to the specified value&lt;/li&gt;&lt;li&gt;var — Local variable Type Inference included in Java 10 (&lt;a href=&quot;http://openjdk.java.net/jeps/286&quot;&gt;JEP 286&lt;/a&gt;)&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Refer to my previous blogs in the EC by Example series for examples of &lt;a href=&quot;https://medium.com/@donraab/ec-by-example-collect-262a46030c49&quot;&gt;collect&lt;/a&gt; and &lt;a href=&quot;https://medium.com/@donraab/ec-by-example-filtering-4f14b906f718&quot;&gt;select&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Check out this &lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/api-design&quot;&gt;presentation&lt;/a&gt; to learn more about the origins, design and evolution of the Eclipse Collections API. There is also a &lt;a href=&quot;https://www.youtube.com/watch?v=Xrx_407Dt-I&quot;&gt;video&lt;/a&gt; covering the slides that was recorded at an Eclipse Community Virtual Meet-up.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=3efe24e43da2&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 23 Apr 2018 05:08:51 +0000</pubDate>
+</item>
+<item>
+	<title>vert.x project: Eclipse Vert.x RabbitMQ client gets a new consumer API!</title>
+	<guid isPermaLink="true">https://vertx.io/blog/eclipse-vert-x-rabbitmq-client-gets-a-new-consumer-api</guid>
+	<link>https://vertx.io/blog/eclipse-vert-x-rabbitmq-client-gets-a-new-consumer-api</link>
+	<description>&lt;article&gt;&lt;p&gt;In Eclipse Vert.x 3.6.0 the RabbitMQ client will get a new consumer API. In this post we are going to show
+the improvements since the previous API and how easy it is to use now.&lt;/p&gt;
+&lt;p&gt;Before digging into the new API let’s find out what were the limitations of the actual one:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The API uses the event bus in such limiting the control of the consumer over the RabbitMQ queue.&lt;/li&gt;
+&lt;li&gt;The message API is based on &lt;code&gt;JsonObject&lt;/code&gt; which does not provide a typed API&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;the-new-api-at-a-glance&quot;&gt;The new API at a glance&lt;/h2&gt;
+&lt;p&gt;Here is how simple queue consumption looks like with the new API:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;RabbitMQClient client = RabbitMQClient.create(vertx, &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; RabbitMQOptions());
+
+client.basicConsumer(&lt;span class=&quot;hljs-string&quot;&gt;&quot;my.queue&quot;&lt;/span&gt;, res -&amp;gt; {
+  &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (res.succeeded()) {
+    System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;RabbitMQ consumer created !&quot;&lt;/span&gt;);
+    RabbitMQConsumer mqConsumer = res.result();
+    mqConsumer.handler((RabbitMQMessage message) -&amp;gt; {
+        System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Got message: &quot;&lt;/span&gt; + message.body().toString());
+    });
+  } &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; {
+    &lt;span class=&quot;hljs-comment&quot;&gt;// Oups something went wrong&lt;/span&gt;
+    res.cause().printStackTrace();
+  }
+});&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Now to create a queue you simply call the &lt;code&gt;basicConsumer&lt;/code&gt; method and you obtain asynchronously
+a &lt;code&gt;RabbitMQConsumer&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Then you need to provide a handler called for each message consumed via &lt;em&gt;RabbitMQConsumer#handler&lt;/em&gt; which
+is the idiomatic way to consumer stream in Vert.x&lt;/p&gt;
+&lt;p&gt;You may also note that when we a message arrives, it has the type of &lt;code&gt;RabbitMQMessage&lt;/code&gt;, this is a typed
+message representation.&lt;/p&gt;
+&lt;p&gt;Since &lt;code&gt;RabbitMQConsumer&lt;/code&gt; is a stream, you also allowed to &lt;code&gt;pause&lt;/code&gt; and &lt;code&gt;resume&lt;/code&gt; the stream, subscribe to the
+end event, get notified when an exception occurs.&lt;/p&gt;
+&lt;p&gt;In addition, you can cancel the subscription by calling &lt;code&gt;RabbitMQConsumer#cancel&lt;/code&gt; method.&lt;/p&gt;
+&lt;h2 id=&quot;backpressure&quot;&gt;Backpressure&lt;/h2&gt;
+&lt;p&gt;Sometimes you can have more incoming messages than you can handle.&lt;/p&gt;
+&lt;p&gt;The new consumer API allows you to control this and lets you store arrived messages in the internal queue
+before they are delivered to the application. Indeed, you can configure the queue size.&lt;/p&gt;
+&lt;p&gt;Here is how you can limit the internal queue size:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;// Limit to max 300 messages&lt;/span&gt;
+QueueOptions options = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; QueueOptions()
+  .setMaxInternalQueueSize(&lt;span class=&quot;hljs-number&quot;&gt;300&lt;/span&gt;);
+
+RabbitMQClient client = RabbitMQClient.create(vertx, &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; RabbitMQOptions());
+
+client.basicConsumer(&lt;span class=&quot;hljs-string&quot;&gt;&quot;my.queue&quot;&lt;/span&gt;, options, res -&amp;gt; {
+  &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (res.succeeded()) {
+    System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;RabbitMQ consumer created !&quot;&lt;/span&gt;);
+    RabbitMQConsumer mqConsumer = res.result();
+    mqConsumer.handler((RabbitMQMessage message) -&amp;gt; {
+      System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Got message: &quot;&lt;/span&gt; + message.body().toString());
+    });
+  } &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; {
+    res.cause().printStackTrace();
+  }
+});&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When the intenral queue queue capacity is exceeded, the new message will be simply dropped.&lt;/p&gt;
+&lt;p&gt;An alternative option is to drop the oldest message in the queue.&lt;/p&gt;
+&lt;p&gt;In order to achieve this, you should specify the behavior by calling &lt;code&gt;QueueOptions#setKeepMostRecent&lt;/code&gt; method.&lt;/p&gt;
+&lt;h2 id=&quot;finally&quot;&gt;Finally&lt;/h2&gt;
+&lt;p&gt;The new Vert.x RabbitMQ client consumer API is way more idiomatic and modern way to consume messages from a queue.&lt;/p&gt;
+&lt;p&gt;This API is going to provided in the 3.6.0 release, while the old will be deprecated.&lt;/p&gt;
+&lt;p&gt;I hope you enjoyed reading this article. See you soon on our &lt;a href=&quot;https://gitter.im/eclipse-vertx/vertx-users&quot;&gt;Gitter channel&lt;/a&gt;!&lt;/p&gt;
+&lt;/article&gt;</description>
+	<pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Nikhil Nanivadekar: India Java User Group Tour 2018</title>
+	<guid isPermaLink="false">https://medium.com/p/ecdd10e2543d</guid>
+	<link>https://medium.com/@nikhilnanivadekar/india-java-user-group-tour-2018-ecdd10e2543d?source=rss-4285d8a2ca86------2</link>
+	<description>&lt;p&gt;After 27+ hours of travel I just reached Pune, my home town. I am excited for my India Java User Group Tour 2018. I will be presenting on Java 10, Java 9, Eclipse Collections, Spark and more!&lt;/p&gt;&lt;p&gt;It is a quick pit stop in Pune before I head over to Chennai for my first JUG meet-up in #INDJUG tour. Abstracts for all my talks are available at the end of this blog. Join me at one of these cities:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/MadrasJUG/events/248758532/&quot;&gt;&lt;strong&gt;Chennai JUG&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;:&lt;/strong&gt; Saturday, April 21&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/Delhi-NCR-JUG/events/249660682/&quot;&gt;&lt;strong&gt;Delhi-NCR JUG&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;:&lt;/strong&gt; Sunday, April 22&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/BangaloreOpenJUG/events/248526846/&quot;&gt;&lt;strong&gt;Bengaluru JUG&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;:&lt;/strong&gt; Wednesday, April 25&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/jughyderabad/events/247346390&quot;&gt;&lt;strong&gt;Hyderabad JUG&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;:&lt;/strong&gt; Sunday, April 29&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Kerala JUG (Thiruvananthapuram):&lt;/strong&gt; Saturday, May 5&lt;/p&gt;&lt;p&gt;Thank you to &lt;a href=&quot;https://twitter.com/MadrasJUG&quot;&gt;@MadrasJUG&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/DelhiJUG&quot;&gt;@DelhiJUG&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/bangalorejug&quot;&gt;@bangalorejug&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/JUGHYD&quot;&gt;@JUGHYD&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/KeralaJUG&quot;&gt;@KeralaJUG&lt;/a&gt; for hosting me in each city.&lt;/p&gt;&lt;p&gt;I’ll be tweeting using the #INDJUG so if you can’t make it, you can still follow my adventures through India.&lt;/p&gt;&lt;p&gt;Hope to see you at one of the stops!&lt;/p&gt;&lt;a href=&quot;https://medium.com/media/1965d4579fd3e295b79002ad7b50a1f5/href&quot;&gt;https://medium.com/media/1965d4579fd3e295b79002ad7b50a1f5/href&lt;/a&gt;&lt;p&gt;&lt;strong&gt;Abstracts&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;How to make your project Java-10 compatible:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Java 10 was recently released and was the first release with the new Java release cadence. However, one can’t simply upgrade their projects from Java 8 to Java 10. It first should be upgraded to Java 9, due to the numerous changes that might potentially break existing applications. This session is a case study of making a third-party Java Collections library (Eclipse Collections) first Java 9 compatible and then with relative ease Java 10 compatible. The audience will see an overview of all the steps taken and the evolution of the final product which is Java 10 compatible. Attending this session will put you in the driver’s seat when you will be required to upgrade your application to use JDK 10.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Getting Started with Spark:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Data analytics and machine learning have become mainstream in recent years. With the amount of data available, distributed computing has become a necessity. Apache Spark is one of the forerunners in distributed computing domain. In this hands-on session, the audience will learn about the background and basic concepts of Apache Spark. The speaker will build a reference implementation live and introduce new concepts along the way.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Collections.compare(JDK, Apache, Eclipse, Guava…):&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Collections are a staple in any programming language: the need to collect, sort, or iterate over values is needed by nearly all developers. The Java language introduced the Collections framework long ago. It has plenty to offer, but many find it lacking: the number of collection libraries as active open source projects demonstrates the need for something else. This session does a holistic comparison of the most-common collections (pun intended!) frameworks, what they have to offer, and what you should consider for your next project. It also shows common programmer use cases; how each library handles them; and the impact on memory, processing power, and ease of use/coding. Come and let us help you choose the right bag for your tricks!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;API Deep Dive: Designing Eclipse Collections&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;When designing an API, its authors have to consider many aspects: style, naming, scope, and implementation details are among these aspects. They have a direct impact on the resulting code, and its implementation can go in many different directions. How do you choose the best route to go? How do you maintain symmetry? How do you guarantee consistency and performance across the framework? Last but not the least, what is the complexity associated with adding a new API? Come take a look behind the curtains of a widely used API that has many years of development and that you can contribute to.&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=ecdd10e2543d&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 20 Apr 2018 00:13:55 +0000</pubDate>
+</item>
+<item>
+	<title>Scott Lewis: ECF Photon supports Bndtools</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-20358640.post-593600413053983449</guid>
+	<link>http://eclipseecf.blogspot.com/2018/04/ecf-photon-supports-bndtools.html</link>
+	<description>A &lt;a href=&quot;http://eclipseecf.blogspot.com/2018/04/ecf-photon-supports-osgi-r7.html&quot;&gt;second&lt;/a&gt; major enhancement for &lt;a href=&quot;https://wiki.eclipse.org/Eclipse_Communication_Framework_Project&quot;&gt;ECF&lt;/a&gt; Photon is adding support for using &lt;a href=&quot;http://bndtools.org/&quot;&gt;Bndtools&lt;/a&gt; to develop and test OSGi Remote Services.   Bndtools is increasingly popular for developing OSGi-based applications and frameworks, and we've added support for Bndtools Workspace, Project, and Run Descriptor templates for developing and testing remote services.&lt;br /&gt;&lt;br /&gt;Initial documentation is available at &lt;a href=&quot;https://wiki.eclipse.org/Bndtools_Support_for_Remote_Services_Development&quot;&gt;Bndtools Support for Remote Services Development&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Note that these templates and the RSA impl may change slightly before ECF Photon, and new/additional templates will be added to (e.g.) support other &lt;a href=&quot;https://wiki.eclipse.org/Distribution_Providers&quot;&gt;distribution&lt;/a&gt; and &lt;a href=&quot;https://wiki.eclipse.org/Discovery_Providers&quot;&gt;discovery&lt;/a&gt; providers.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</description>
+	<pubDate>Thu, 19 Apr 2018 21:39:12 +0000</pubDate>
+	<author>noreply@blogger.com (Scott Lewis)</author>
+</item>
+<item>
+	<title>Obeo Team: What’s Coming in Sirius 6.0?</title>
+	<guid isPermaLink="true">https://blog.obeo.fr/what-is-coming-in-sirius-6-0</guid>
+	<link>https://blog.obeo.fr/what-is-coming-in-sirius-6-0</link>
+	<description>The next major version of Sirius , version 6.0, will be released on June 27, 2018 as part of the Eclipse Photon Simultaneous Release, with a corresponding version of Obeo Designer Community Edition soon after. Many of the new features for this release are already available for testing in milestone versions, and now is the right time to test them and give us feedback: there’s still time to make adj...</description>
+	<pubDate>Thu, 19 Apr 2018 12:59:22 +0000</pubDate>
+	<author>pierre-charles.david@obeo.fr (Pierre-Charles David)</author>
+</item>
+<item>
+	<title>EclipseCon France 2018: Who, what, when, where at EclipseCon France?</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/france2018/news/3878 at https://www.eclipsecon.org/france2018</guid>
+	<link>https://www.eclipsecon.org/france2018/news/who-what-when-where-eclipsecon-france</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The schedule is now published, so you can work on your plan for the week! Thank you again for all the great submissions that make up &lt;a href=&quot;https://www.eclipsecon.org/france2018/conference/schedule/session/2018-06-13&quot; target=&quot;_blank&quot;&gt;this fantastic program&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are even more choices this year, since Wednesday has five concurrent talks all day with a special focus on Jakarta EE and Eclipse MicroProfile.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for more about &lt;a href=&quot;https://www.eclipsecon.org/france2018/unconference&quot; target=&quot;_blank&quot;&gt;the Unconference on June 12&lt;/a&gt;. We'll see you soon in Toulouse!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/france2018/news/who-what-when-where-eclipsecon-france&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/france2018/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/2session.jpg?itok=d0N8H2E2&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Thu, 19 Apr 2018 06:19:44 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: EclipseCon France 2018 – Sessions</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=1088</guid>
+	<link>https://papyrusuml.wordpress.com/2018/04/18/eclipsecon-france-2018-sessions/</link>
+	<description>&lt;p&gt;The sessions lineup for EclipseCon France 2018 have been published! If you plan on attending, I have a couple of suggestions for you!&lt;/p&gt;
+&lt;p&gt;First, a session about me (of course) and more love for my toolsmiths:&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.eclipsecon.org/france2018/session/papyrus-platform&quot;&gt;Papyrus as a Platform&lt;/a&gt;&lt;/h2&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;by Philip Langer (EclipseSource Services GmbH).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Model-based engineering tools are most successful, if they are as domain-specific as possible, reflecting the specific needs of the domain and its users. Thus, not only a domain-specific modeling language, but also a specialized modeling environment is required that takes the domain users’ background, their roles, and currently used infrastructure into account. Often, the domain-specific modeling languages have a considerable overlap with UML though.&lt;/p&gt;
+&lt;p&gt;The second session is not directly focused on me, but it is very relevant to using me as a platform for domain-specific tools (and again, more love for my toolsmiths):&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.eclipsecon.org/france2018/session/comparison-and-merge-use-cases-practice-emf-compare&quot;&gt;Comparison and merge use-cases from practice with EMF Compare&lt;/a&gt;&lt;/h2&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;by Laurent Delaigue (Obeo) and Philip Langer (EclipseSource Services GmbH)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Have you ever needed to compare and merge heterogeneous domain-specific models (with both textual and graphical syntaxes)? Or maybe you needed to review changes on graphical models? We did.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Did I miss a presentation? If so, &lt;a href=&quot;https://papyrusuml.wordpress.com/contact-us/&quot;&gt;let me know&lt;/a&gt;!&lt;/p&gt;</description>
+	<pubDate>Wed, 18 Apr 2018 15:05:58 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: IoT Developer Survey 2018 | Results are in!</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/1COMKF1x4u8/key-trends-iot-developer-survey-2018</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/1COMKF1x4u8/key-trends-iot-developer-survey-2018</link>
+	<description>Results from the IoT Developer Survey are in! Read about the key findings about IoT cloud platforms, databases, security, and more.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/1COMKF1x4u8&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 17 Apr 2018 14:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Benjamin Cabe: Key Trends from the IoT Developer Survey 2018</title>
+	<guid isPermaLink="false">https://blog.benjamin-cabe.com/?p=3150</guid>
+	<link>http://feedproxy.google.com/~r/benjamin-cabe-planet-eclipse/~3/1COMKF1x4u8/key-trends-iot-developer-survey-2018</link>
+	<description>&lt;h1&gt;Executive Summary&lt;/h1&gt;
+&lt;p&gt;The IoT Developer Survey 2018 collected feedback from 502 individuals between January and March 2018.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;key findings&lt;/strong&gt; in this year’s edition of the survey include the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;Amazon AWS and Microsoft Azure are the top 2 cloud services for IoT. Google Cloud Platform is failing to get traction.&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;MQTT remains the standard of choice for IoT messaging, while AMQP is becoming more and more popular as companies scale their IoT deployments and backend systems.&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;93% of the databases and data stores used for IoT are open source software. Data collected and used in IoT applications is incredibly diverse, from time series sensor data to device information to logs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;For the past four years, the &lt;strong&gt;IoT Developer Survey&lt;/strong&gt; has been a great way to look at the IoT landscape, from understanding the key challenges for people building IoT solutions, to identifying relevant open source technology or standards.&lt;/p&gt;
+&lt;p&gt;Just like in previous years (see results from &lt;a href=&quot;https://www.slideshare.net/IanSkerrett/iot-developer-survey-2017&quot;&gt;2017&lt;/a&gt;, &lt;a href=&quot;https://www.slideshare.net/IanSkerrett/iot-developer-survey-2016&quot;&gt;2016&lt;/a&gt; and &lt;a href=&quot;https://www.slideshare.net/IanSkerrett/iot-developer-survey-2015&quot;&gt;2015&lt;/a&gt; survey), the &lt;a href=&quot;https://iot.eclipse.org/&quot;&gt;Eclipse IoT Working Group&lt;/a&gt; has collaborated with a number of organizations to promote the survey to different IoT developer communities: &lt;a href=&quot;http://agile-iot.eu/&quot;&gt;Agile-IoT&lt;/a&gt; H2020 Project, &lt;a href=&quot;https://ieee.org/&quot;&gt;IEEE&lt;/a&gt;, and the &lt;a href=&quot;https://www.omaspecworks.org/&quot;&gt;Open Mobile Alliance&lt;/a&gt; (now OMA SpecWorks).&lt;/p&gt;
+&lt;p&gt;We had a total of 502 individual responses. You will find a link to the complete report at the end of this blog post, as well as pointers to download the raw survey data.&lt;/p&gt;
+&lt;p&gt;Here are the key trends that we identified this year:&lt;/p&gt;
+
+&lt;h1&gt;Amazon and Azure get traction, Google slips behind&lt;/h1&gt;
+&lt;p&gt;For the past few years, we’ve asked people what cloud platform they use or plan on using for building their IoT solution.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-cloud-top3-e1523368283588.png&quot;&gt;&lt;img alt=&quot;IoT Developer Survey 2018: IoT Cloud Platforms Adoption – Amazon vs. Microsoft vs. Google&quot; class=&quot;aligncenter wp-image-3173 size-large&quot; height=&quot;198&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-cloud-top3-e1523368283588-1024x428.png&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Since 2016, Amazon AWS has always come up as the platform of choice for the respondents&lt;/b&gt;, followed by Microsoft Azure and Google Cloud Platform.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;img alt=&quot;📎&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.4/72x72/1f4ce.png&quot; style=&quot;height: 1em;&quot; /&gt; &lt;strong&gt;The use of AWS for building IoT solutions increased by 21% since 2017.  &lt;a href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fwp.me%2Fp6qsqk-OO&amp;amp;via=kartben&amp;amp;text=The%20use%20of%20@awscloud%20for%20building%20%23IoT%20solutions%20increased%20by%2021%25%20since%202017%20according%20to%20%23IoT%20Developer%20Survey.&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-full wp-image-3195&quot; height=&quot;20&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/birdy_button.png&quot; width=&quot;20&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Looking at this year’s results, there is a clear upward trend in terms of adoption for Amazon AWS (51.8%, a 21% increase from last year) and Microsoft Azure (31.21%, a 17% increase from 2017). In the meantime, &lt;b&gt;Google Cloud Platform is struggling to get adoption from IoT developers&lt;/b&gt; (18.8%, an 8% year-to-year decrease).&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;img alt=&quot;📎&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.4/72x72/1f4ce.png&quot; style=&quot;height: 1em;&quot; /&gt; &lt;strong&gt;Google Cloud Platform struggles, with an 8% decrease in market share for IoT deployments since 2017.  &lt;a href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fwp.me%2Fp6qsqk-OO&amp;amp;via=kartben&amp;amp;text=Google%20Cloud%20Platform%20struggles%20in%20%23IoT%2C%20with%20an%208%25%20decrease%20in%20market%20share%20for%20IoT%20deployments%20since%202017%20according%20to%20%23IoT%20Developer%20Survey.&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-full wp-image-3195&quot; height=&quot;20&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/birdy_button.png&quot; width=&quot;20&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Seeing AWS ahead of the pack is no surprise. It seems to be the public cloud platform of choice for developers, &lt;a href=&quot;https://insights.stackoverflow.com/survey/2018/#technology-platforms&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;according to the recent Stack Overflow Developer Survey&lt;/a&gt;, and one of the &lt;a href=&quot;https://insights.stackoverflow.com/survey/2018/#technology-most-loved-dreaded-and-wanted-platforms&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;most loved platforms&lt;/a&gt; for development in general. And looking at the same survey, it seems Google is not really doing great with their Cloud Platform (it is used by 8.0% of the respondents vs. 24.1% for AWS).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-cloud-trends-e1523368417779.png&quot;&gt;&lt;img alt=&quot;IoT Developer Survey 2018: IoT Cloud Platforms Adoption – Trends&quot; class=&quot;aligncenter wp-image-3175 size-large&quot; height=&quot;226&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-cloud-trends-e1523368417779-1024x489.png&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It will be interesting to see how, and if, Google catches up in the IoT cloud race, and whether we will see more acquisitions similar to &lt;a href=&quot;https://www.blog.google/topics/google-cloud/google-cloud-announces-intent-to-acquire-xively/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Xively’s in February&lt;/a&gt; to help beef up their IoT offering in 2018. Since Microsoft is planning to&lt;a href=&quot;https://blogs.microsoft.com/iot/2018/04/04/microsoft-will-invest-5-billion-in-iot-heres-why/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt; invest $5 billion in IoT over the next four years&lt;/a&gt;, the IoT cloud competition will definitely be interesting to follow…&lt;/p&gt;
+&lt;h1&gt;IoT Data is finally getting attention&lt;/h1&gt;
+&lt;p&gt;While IoT has been around for a while now, it looks like developers are starting to realize that beyond the “cool” factor of building connected devices, the real motivation and business opportunity for IoT is in collecting data and making sense out of it.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;img alt=&quot;📎&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.4/72x72/1f4ce.png&quot; style=&quot;height: 1em;&quot; /&gt; &lt;strong&gt;Collecting and analyzing data becomes #2 concern for #IoT developers.  &lt;a href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fwp.me%2Fp6qsqk-OO&amp;amp;via=kartben&amp;amp;text=Collecting%20and%20analyzing%20data%20becomes%20%232%20concern%20for%20%23IoT%20developers%20according%20to%20%23IoT%20Developer%20Survey.&amp;amp;hashtags=bigdata%2Canalytics%2Cai&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-3195 size-full&quot; height=&quot;20&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/birdy_button.png&quot; width=&quot;20&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This year, &lt;b&gt;18% of the respondents identified &lt;/b&gt;&lt;b&gt;&lt;i&gt;Data Collection &amp;amp; Analytics&lt;/i&gt;&lt;/b&gt;&lt;b&gt; as one of their top concerns for developing IoT solutions&lt;/b&gt;. This is a 50% increase from last year, and puts this topic as #2 concern—&lt;i&gt;Security&lt;/i&gt; remains #1, and &lt;i&gt;Connectivity&lt;/i&gt; is sharing the third place with &lt;i&gt;Integration with Hardware&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-key-concerns.png&quot;&gt;&lt;img alt=&quot;IoT Developer Survey 2018: Key IoT Concerns&quot; class=&quot;aligncenter wp-image-3170 size-large&quot; height=&quot;267&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-key-concerns-1024x576.png&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Unsurprisingly, industries such as &lt;i&gt;Industrial Automation&lt;/i&gt; or &lt;i&gt;Smart Cities&lt;/i&gt; tend to care about IoT data collection and analytics even more—23% of the respondents working in those industries consider data collection &amp;amp; analytics to be a key concern.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-concerns-trend.png&quot;&gt;&lt;img alt=&quot;IoT Developer Survey 2018: Key IoT Concerns - Trends&quot; class=&quot;aligncenter wp-image-3172 size-large&quot; height=&quot;225&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-concerns-trend-e1523368192756-1024x486.png&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;On a side note, it is great to get the confirmation of a trend we identified last year, with &lt;i&gt;Interoperability&lt;/i&gt; clearing becoming less of a concern for IoT developers. It’s been ranking #2 since we started doing the survey in 2015, and is now relegated to the 5th place.&lt;/p&gt;
+&lt;p&gt;As someone working with IoT open source communities on a day-to-day basis, I can’t help but think about the crucial role open standards and open source IoT platforms have had in making IoT interoperability a reality.&lt;/p&gt;
+&lt;h1&gt;Consolidation in IoT messaging protocols&lt;/h1&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;img alt=&quot;📎&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.4/72x72/1f4ce.png&quot; style=&quot;height: 1em;&quot; /&gt; &lt;strong&gt;MQTT is used in 62% of IoT solutions and remains the IoT messaging protocol of choice.  &lt;a href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fwp.me%2Fp6qsqk-OO&amp;amp;via=kartben&amp;amp;text=%23MQTT%20is%20used%20in%2062%25%20of%20%23IoT%20solutions%20and%20remains%20the%20IoT%20messaging%20protocol%20of%20choice%20according%20to%20%23IoT%20Developer%20Survey&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-full wp-image-3195&quot; height=&quot;20&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/birdy_button.png&quot; width=&quot;20&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;An area I particularly like to observe year-over-year is the evolution of IoT messaging protocols. For many years now, &lt;b&gt;MQTT has established itself as a protocol of choice for IoT&lt;/b&gt;, and this year’s survey is just confirming this: MQTT is used by over 62% of our respondents, followed by HTTP (54.1%).&lt;/p&gt;
+&lt;p&gt;Six years after IBM and Eurotech open sourced their implementations of the MQTT protocol (see the&lt;a href=&quot;https://www.eclipse.org/paho/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt; Eclipse Paho&lt;/a&gt; project), and with the ever-increasing popularity of the&lt;a href=&quot;http://mosquitto.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt; Eclipse Mosquitto&lt;/a&gt; project (and many other open MQTT-based projects out there of course), this is once again a demonstration that open wins. With&lt;a href=&quot;http://modelbasedtesting.co.uk/2018/04/09/a-story-of-mqtt-5-0/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt; MQTT 5 around the corner&lt;/a&gt; and several of the identified “limitations” of the protocol gone, MQTT will possibly become even more clearly &lt;em&gt;THE&lt;/em&gt; IoT messaging standard in the future.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-consolidation-messaging-protocols.png&quot;&gt;&lt;img alt=&quot;IoT Developer Survey 2018: Consolidation in IoT Messaging Protocols&quot; class=&quot;aligncenter wp-image-3169 size-large&quot; height=&quot;267&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-consolidation-messaging-protocols-1024x576.png&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It would appear that the use of&lt;b&gt; HTTP is declining&lt;/b&gt; (54.1%), perhaps to the benefit of the more lightweight and versatile &lt;b&gt;HTTP/2&lt;/b&gt; (24.9% vs. 16.8% last year). &lt;b&gt;XMPP&lt;/b&gt; (4.3%) is one of the protocols that seems to be losing the protocol consolidation battle, with a continued decline since 2016.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;img alt=&quot;📎&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.4/72x72/1f4ce.png&quot; style=&quot;height: 1em;&quot; /&gt; &lt;strong&gt;Adoption of AMQP increased by over 30% since 2017 as people scale their IoT deployments.  &lt;a href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fwp.me%2Fp6qsqk-OO&amp;amp;via=kartben&amp;amp;text=Adoption%20of%20%23AMQP%20increased%20by%20over%2030%25%20since%20last%20year%20as%20people%20scale%20their%20IoT%20deployments%20according%20to%20%23IoT%20Developer%20Survey.&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-full wp-image-3195&quot; height=&quot;20&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/birdy_button.png&quot; width=&quot;20&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Since more and more people start scaling their IoT deployments, it is likely a reason for the significant increase in &lt;b&gt;AMQP&lt;/b&gt;’s adoption (18.2%, from 13.9% last year), which is a core element of many IoT backends.&lt;/p&gt;
+&lt;p&gt;The &lt;b&gt;use of proprietary vendor protocols and in-house protocols is steadily decreasing&lt;/b&gt;, confirming that the industry at large tends to favor open standards over closed solutions.&lt;/p&gt;
+&lt;p&gt;It will be interesting to watch how the adoption of &lt;b&gt;DDS&lt;/b&gt; (4.9%) evolves over time. It already seems to be getting some traction in domains such as Automotive, where 10% of the respondents said they are using it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-messaging-protocols.png&quot;&gt;&lt;img alt=&quot;IoT Developer Survey 2018: IoT Messaging Protocols – Trends&quot; class=&quot;aligncenter wp-image-3168 size-large&quot; height=&quot;228&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-messaging-protocols-e1523368219286-1024x492.png&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Focus on security increases&lt;/h1&gt;
+&lt;p&gt;It is always interesting to watch how developers approach security in the context of IoT, and it has always been mentioned as the #1 concern for IoT developers since we started doing the survey in 2015.&lt;/p&gt;
+&lt;p&gt;However, it is no secret that security is hard, and there is unfortunately still only a limited set of security-related practices that are on the front burner of IoT developers. &lt;strong&gt;Communication-layer security&lt;/strong&gt; (e.g the use of TLS or DTLS) &lt;strong&gt;and data encryption remain the two most popular practices&lt;/strong&gt;, used by respectively 57.3% and 45.1% of the respondents.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-security.png&quot;&gt;&lt;img alt=&quot;IoT Developer Survey 2018: IoT Security Technologies&quot; class=&quot;aligncenter wp-image-3167 size-large&quot; height=&quot;267&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-security-1024x576.png&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For the first time in the history of this survey, we explicitly asked respondents if they were using &lt;b&gt;blockchain or distributed ledger technology (DLT)&lt;/b&gt; in their IoT solutions. I was frankly surprised to see that it would appear to be the case for 11% of the respondents. As the technology matures, and as some of the barriers making it sometimes impractical for constrained/embedded devices slowly disappear, I am expecting blockchain &amp;amp; DLT to be used more and more for securing IoT solutions (and probably in combination with &lt;a href=&quot;https://blog.benjamin-cabe.com/2017/12/21/monetizing-iot-data-using-iota&quot;&gt;data monetization&lt;/a&gt; use cases).&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;img alt=&quot;📎&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.4/72x72/1f4ce.png&quot; style=&quot;height: 1em;&quot; /&gt; &lt;strong&gt;Adoption of over-the-air updates to keep IoT applications up-to-date and secure increased by almost 50% since last year.  &lt;a href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fwp.me%2Fp6qsqk-OO&amp;amp;via=kartben&amp;amp;text=Adoption%20of%20%23OTA%20updates%20to%20keep%20%23IoT%20applications%20up-to-date%20and%20secured%20increased%20by%20almost%2050%25%20since%20last%20year%2C%20according%20to%20%23IoT%20Developer%20Survey.&amp;amp;hashtags=security&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-full wp-image-3195&quot; height=&quot;20&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/birdy_button.png&quot; width=&quot;20&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;To end on a positive note, it is pretty clear that developers are starting to bake security into their IoT products, as an increasing number of developers indicated they implement security techniques compared to 2017. &lt;strong&gt;Over-the-air updates appear to be used more and more&lt;/strong&gt; (27.3%, a 47% increase from 2017). Open device management standards such as &lt;a href=&quot;https://www.omaspecworks.org/what-is-oma-specworks/iot/lightweight-m2m-lwm2m/&quot;&gt;LWM2M&lt;/a&gt;, together with open source implementations such as &lt;a href=&quot;https://www.eclipse.org/wakaama/&quot;&gt;Eclipse Wakaama&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/leshan/&quot;&gt;Eclipse Leshan&lt;/a&gt;, are certainly making it easier for developers to implement OTA in their solutions.&lt;/p&gt;
+&lt;h1&gt;IoT Data is multifaceted and open source databases dominate the market&lt;/h1&gt;
+&lt;p&gt;This year we added a few questions to the survey aimed at understanding better the kind of IoT data being collected, and how it is being stored.&lt;/p&gt;
+&lt;p&gt;It is interesting to see that across all industries, IoT data is equally multifaceted, and a wide variety of data is being collected by today’s IoT applications.&lt;b&gt; 61.9% of the data collected is time series data &lt;/b&gt;(e.g sensor data), but almost equally important are device information (60.4%) and log data (54.1%). This is not really surprising as collecting sensor data is only half of the IoT operational equation: one also needs to be able to track and manage their fleet of devices.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-data.png&quot;&gt;&lt;img alt=&quot;IoT Developer Survey 2018: Types of IoT Data&quot; class=&quot;aligncenter wp-image-3164 size-large&quot; height=&quot;267&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-data-1024x576.png&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Keeping that in mind, it is interesting to look at the landscape of databases and data stores used for IoT applications. While time series data is the most common form of data that IoT applications collect, &lt;b&gt;traditional relational databases&lt;/b&gt; (namely, MySQL, with a clear leading position at 44.6%) &lt;b&gt;are still widely used&lt;/b&gt;. It is likely reflecting the importance of storing all kinds of device metadata or legacy enterprise data in addition to sensor data.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-databases.png&quot;&gt;&lt;img alt=&quot;IoT Developer Survey 2018: IoT Databases&quot; class=&quot;aligncenter wp-image-3163 size-large&quot; height=&quot;267&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-databases-1024x576.png&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;With regards to NoSQL and time series databases, &lt;b&gt;MongoDB&lt;/b&gt; (29.8%) &lt;b&gt;and InfluxDB&lt;/b&gt; (15.7%) &lt;b&gt;seem to be the two platforms of choice for storing non-relational IoT data (e.g time series)&lt;/b&gt;.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;img alt=&quot;📎&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.4/72x72/1f4ce.png&quot; style=&quot;height: 1em;&quot; /&gt; &lt;strong&gt;93% of databases used in IoT are open source.  &lt;a href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fwp.me%2Fp6qsqk-OO&amp;amp;via=kartben&amp;amp;text=93%25%20of%20databases%20used%20in%20%23IoT%20are%20%23opensource%20according%20to%20%23IoT%20Developer%20Survey.&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-full wp-image-3195&quot; height=&quot;20&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/birdy_button.png&quot; width=&quot;20&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;It is worth highlighting that&lt;b&gt; an astounding majority (93%) of the databases used for IoT are open source&lt;/b&gt;, with Amazon DynamoDB (6.9%) being the only notable exception. With something as critical and sensitive as IoT data, it seems that solution developers tend to favor technology that is not only easy and free to access, but more importantly that allows them to really “own” their data.&lt;/p&gt;
+&lt;h1&gt;Linux remains the undisputed IoT operating system&lt;/h1&gt;
+&lt;p&gt;Once again, Linux (71.8%) remains the leading operating system across IoT devices, gateways, and cloud backends.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-top-os.png&quot;&gt;&lt;img alt=&quot;IoT Developer Survey 2018: Top IoT Operating Systems &amp;amp; Distros&quot; class=&quot;aligncenter wp-image-3161 size-large&quot; height=&quot;267&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-top-os-1024x576.png&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Although Amazon’s acquisition of &lt;b&gt;FreeRTOS&lt;/b&gt; occurred just a few months before the survey opened, it might partially explain the significant increase in its reported adoption. Going from 13% in 2016 to 20% this year, it becomes the leading embedded IoT operating system, followed by &lt;b&gt;Arm Mbed&lt;/b&gt; (9%) and &lt;b&gt;Contiki&lt;/b&gt; (7%).&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;img alt=&quot;📎&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.4/72x72/1f4ce.png&quot; style=&quot;height: 1em;&quot; /&gt; &lt;strong&gt;FreeRTOS becomes the leading embedded #IoT operating system, followed by Arm Mbed and Contiki OS.  &lt;a href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fwp.me%2Fp6qsqk-OO&amp;amp;via=kartben&amp;amp;text=.@real_FreeRTOS%20becomes%20the%20leading%20%23embedded%20%23IoT%20operating%20system%2C%20followed%20by%20@ArmMbed%20and%20@contiki_ng%20according%20to%20%23IoT%20Developer%20Survey.&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-full wp-image-3195&quot; height=&quot;20&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/birdy_button.png&quot; width=&quot;20&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;In terms of Linux distributions, and as Raspberry Pi stays a very popular platform for IoT prototyping, Raspbian (43.3%) remains the top Linux distribution followed by Ubuntu (40.2%).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-os-and-distros.png&quot;&gt;&lt;img alt=&quot;IoT Developer Survey 2018: IoT Linux Distributions – Trends&quot; class=&quot;aligncenter wp-image-3162 size-large&quot; height=&quot;267&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-os-and-distros-1024x576.png&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;You can find the &lt;a href=&quot;https://www.slideshare.net/kartben/iot-developer-survey-2018&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;complete report on Slideshare&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;  &lt;/p&gt;
+&lt;div style=&quot;margin-bottom: 5px;&quot;&gt; &lt;strong&gt; &lt;a href=&quot;https://www.slideshare.net/kartben/iot-developer-survey-2018&quot; target=&quot;_blank&quot; title=&quot;IoT Developer Survey 2018&quot;&gt;IoT Developer Survey 2018&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;https://www.slideshare.net/kartben&quot; target=&quot;_blank&quot;&gt;Benjamin Cabé&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+&lt;p&gt;Should you want to play with the raw data yourself, we made it available as a Google Spreadsheet &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1qxMy-K15wfXlbanBC6yv3gWtoTmo6ivo9xP1USTs9Wg/edit?usp=sharing&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; – feel free to export it as whatever format suits you best.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mmilinkov.wordpress.com&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Mike Milinkovich&lt;/a&gt; and I will be doing a &lt;a href=&quot;https://www.meetup.com/fr-FR/Virtual-IoT/events/249679807/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;webinar on Thursday, April 19&lt;/a&gt;, to go through the results and discuss our findings. Don’t forget to RSVP!&lt;/p&gt;
+&lt;p&gt;Thanks to everyone who took the time to fill out this survey, and thanks again to IEEE, OMA SpecWorks and the Agile-IoT project for their help with the promotion.&lt;/p&gt;
+&lt;p&gt;I am very interested in hearing your thoughts and feedback about this year’s findings in the comments of this post. And, of course, we are always open to suggestions on how to improve the survey in the future!&lt;/p&gt;
+&lt;p&gt;L’article &lt;a href=&quot;https://blog.benjamin-cabe.com/2018/04/17/key-trends-iot-developer-survey-2018&quot; rel=&quot;nofollow&quot;&gt;Key Trends from the IoT Developer Survey 2018&lt;/a&gt; est apparu en premier sur &lt;a href=&quot;https://blog.benjamin-cabe.com&quot; rel=&quot;nofollow&quot;&gt;Benjamin Cabé&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/benjamin-cabe-planet-eclipse/~4/1COMKF1x4u8&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 17 Apr 2018 12:44:43 +0000</pubDate>
+</item>
+<item>
+	<title>Scott Lewis: ECF Photon supports OSGI R7</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-20358640.post-6458388910243300068</guid>
+	<link>http://eclipseecf.blogspot.com/2018/04/ecf-photon-supports-osgi-r7.html</link>
+	<description>&lt;a href=&quot;https://wiki.eclipse.org/Eclipse_Communication_Framework_Project&quot;&gt;ECF&lt;/a&gt; Photon has several major enhancements.   I'll blog about these enhancements individually over the coming weeks, starting with&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Support for OSGI R7 Remote Services&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;In the R7 final draft specification (&lt;a href=&quot;https://osgi.org/specification/osgi.cmpn/7.0.0/service.remoteservices.html&quot;&gt;chapter 100&lt;/a&gt;) detail was added about the use of &lt;a href=&quot;https://osgi.org/specification/osgi.cmpn/7.0.0/service.remoteservices.html#i1693415&quot;&gt;Remote Service Intents&lt;/a&gt;.   RS Intents describe a distribution provider's abstract capabilities.    By way of example, several new standard intents have been defined, including &lt;b&gt;osgi.basic&lt;/b&gt; and &lt;b&gt;osgi.async.   &lt;/b&gt;&lt;br /&gt;&lt;br /&gt;The &lt;a href=&quot;https://osgi.org/specification/osgi.cmpn/7.0.0/service.remoteservices.html#service.remoteservices-osgi.basic&quot; style=&quot;font-weight: bold;&quot;&gt;osgi.basic&lt;/a&gt; intent requires that a distribution provider support a remote service-specific timeout, as well as serialization of remote service arguments and return values include DTOs (&lt;a href=&quot;https://osgi.org/specification/osgi.core/7.0.0/framework.dto.html&quot;&gt;Data Type Objects&lt;/a&gt;), java primitives, maps, collections, lists, OSGI Version, etc.   &lt;br /&gt;&lt;br /&gt;The &lt;b&gt;&lt;a href=&quot;https://osgi.org/specification/osgi.cmpn/7.0.0/service.remoteservices.html#d0e1402&quot;&gt;osgi.async&lt;/a&gt;&lt;/b&gt; intent requires that remote service method signatures using CompletableFuture, Future, and OSGI's &lt;a href=&quot;https://osgi.org/specification/osgi.cmpn/7.0.0/util.promise.html&quot;&gt;Promise&lt;/a&gt; be supported directly by the distribution provider.   This allows non-blocking asynchronous remote services to be easily declared in the service interface, and implemented by the distribution provider.  &lt;a href=&quot;https://github.com/ECF/enrouteEvalExampleRemoteService/blob/master/bundles/com.acme.prime.eval.api.v2/src/com/acme/prime/eval/api/Eval.java&quot;&gt;Here is an example remote service&lt;/a&gt; declaration that demonstrates how the osgi.async intent can be used.   In a forthcoming tutorial, I'll show how such a small service can be easily defined, implemented, and remoted using ECF Remote Services.&lt;br /&gt;&lt;br /&gt;ECF's remote services impl has &lt;a href=&quot;https://wiki.eclipse.org/Distribution_Providers&quot;&gt;multiple distribution providers&lt;/a&gt;, and open APIs for creating custom or extension providers.   Most of the existing ECF distribution providers already available have been updated to implement the R7-standardized intents.   Others will be updated prior to and after Photon release.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 16 Apr 2018 17:09:05 +0000</pubDate>
+	<author>noreply@blogger.com (Scott Lewis)</author>
+</item>
+<item>
+	<title>Webtools News: WTP 3.9.5 Released!</title>
+	<guid isPermaLink="false">http://www.eclipse.org/webtools/news.php#permalink183</guid>
+	<link>http://eclipse.org/webtools/releases/3.9.5</link>
+	<description>&lt;div&gt;
+      Web Tools Platform 3.9.5 has been released!  &lt;a href=&quot;https://wiki.eclipse.org/WTP_FAQ#How_do_I_install_WTP.3F&quot;&gt;Installation&lt;/a&gt; and update can be performed using the 
+      &lt;a href=&quot;http://download.eclipse.org/releases/oxygen/&quot;&gt;Oxygen Update Site&lt;/a&gt; or through the &lt;a href=&quot;https://marketplace.eclipse.org/user/nitind/listings&quot;&gt;Eclipse Marketplace&lt;/a&gt;.
+      Release 3.9.5 &lt;a href=&quot;https://www.eclipse.org/webtools/releases/3.9.5/&quot;&gt;fixes&lt;/a&gt; issues that occur in prior releases or have been reported since 3.9's release. WTP 3.9.5 is NOT included in Oxygen.3a
+          &lt;a href=&quot;https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen3a&quot;&gt;Eclipse IDE for Java EE Developers&lt;/a&gt;, with selected portions also included in &lt;a href=&quot;http://www.eclipse.org/downloads/compare.php&quot;&gt;other packages&lt;/a&gt;.  Adopters can download &lt;a href=&quot;http://download.eclipse.org/webtools/downloads/&quot;&gt;the R3.9.5 build itself&lt;/a&gt; directly.&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://www.eclipse.org/webtools/news.php#permalink183&quot;&gt;More news&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Sun, 15 Apr 2018 10:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>vert.x project: New community channels</title>
+	<guid isPermaLink="true">https://vertx.io/blog/new-community-channels</guid>
+	<link>https://vertx.io/blog/new-community-channels</link>
+	<description>&lt;article&gt;&lt;p&gt;If you visited the Eclipse Vert.x website recently, you might have noticed a couple of novelties on the &lt;a href=&quot;https://vertx.io/community&quot;&gt;community&lt;/a&gt; page:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the Stack Overflow &lt;a href=&quot;https://stackoverflow.com/questions/tagged/vert.x?sort=newest&amp;amp;pageSize=15&quot;&gt;vert.x&lt;/a&gt; tag for user questions&lt;/li&gt;
+&lt;li&gt;the &lt;a href=&quot;https://gitter.im/eclipse-vertx/vertx-users&quot;&gt;vertx-users&lt;/a&gt; Gitter channel to chat with other users and module maintainers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wondering why?&lt;/p&gt;
+&lt;h2 id=&quot;answering-questions-wherever-they-are-asked&quot;&gt;Answering questions wherever they are asked&lt;/h2&gt;
+&lt;p&gt;In order to help us support the community, we (the core team and module maintainers) have tried so far to stick to a few rules:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://groups.google.com/forum/?fromgroups#!forum/vertx&quot;&gt;user group&lt;/a&gt; for questions&lt;/li&gt;
+&lt;li&gt;IRC to chat&lt;/li&gt;
+&lt;li&gt;bugs and issues reported on GitHub&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These rules were documented on the website, but admittedly they are hard (if possible at all) to enforce.
+And let’s face it: many new users like to ask questions on Stackoverflow and GitHub.&lt;/p&gt;
+&lt;p&gt;So we now answer questions wherever they are asked.
+We keep the user group as the main channel though: some conversations just don’t fit the Stack Overflow model, and not everyone in the community watches the GitHub repositories.&lt;/p&gt;
+&lt;h2 id=&quot;moving-from-irc-to-gitter&quot;&gt;Moving from IRC to Gitter&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;#vertx&lt;/code&gt; channel is recorded on &lt;code&gt;echelog&lt;/code&gt; but it’s not convenient to search or browse.
+And sharing code, logs, issues is simply awful compared to modern alternatives like Gitter or Slack.&lt;/p&gt;
+&lt;p&gt;Gitter got our preference because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;it’s free, without limits&lt;/li&gt;
+&lt;li&gt;it’s not resource hungry (on a browser at least)&lt;/li&gt;
+&lt;li&gt;it’s well integrated with GitHub&lt;/li&gt;
+&lt;li&gt;it supports advanced formatting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Since the &lt;a href=&quot;https://gitter.im/eclipse-vertx/vertx-users&quot;&gt;channel&lt;/a&gt; was opened, new people are joining every day.
+At the time of writing, there are 74 people registered already.
+We hope you will be the next one!&lt;/p&gt;
+&lt;p&gt;See you soon online.&lt;/p&gt;
+&lt;/article&gt;</description>
+	<pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse Oxygen 3A has been released!</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/OWE11o6tdkM/3a</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/OWE11o6tdkM/3a</link>
+	<description>Download the Oxygen 3A packages today.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/OWE11o6tdkM&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 12 Apr 2018 14:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Holger Voormann: Eclipse Oxygen.3a IDE Improvements: Java 10</title>
+	<guid isPermaLink="false">http://eclipsehowl.wordpress.com/?p=1403</guid>
+	<link>https://eclipsehowl.wordpress.com/2018/04/12/eclipse-oxygen-3a-ide-improvements-java-10/</link>
+	<description>&lt;p&gt;Three weeks after the &lt;a href=&quot;https://wp.me/pKqrW-mq&quot;&gt;Oxygen.3&lt;/a&gt; and the &lt;a href=&quot;http://openjdk.java.net/projects/jdk/10/&quot;&gt;Java 10&lt;/a&gt; release, Oxygen.3a now adds official support for Java 10 which was previously offered only as a &lt;a href=&quot;http://marketplace.eclipse.org/content/java-10-support-oxygen&quot;&gt;pre-release via the Eclipse Marketplace&lt;/a&gt;. Because &lt;a href=&quot;https://bugs.eclipse.org/bugs/buglist.cgi?classification=Eclipse&amp;amp;query_format=advanced&amp;amp;target_milestone=4.7.3a&quot;&gt;Oxygen.3a also contains some bug fixes&lt;/a&gt;, an upgrade is also recommended for Java developers who do not (yet) want to use Java 10.&lt;/p&gt;
+&lt;p&gt;The main innovation and the only language change of Java 10 is the so-called &lt;em&gt;&lt;a href=&quot;http://openjdk.java.net/jeps/286&quot;&gt;Local-Variable Type Inference&lt;/a&gt;&lt;/em&gt;: within code blocks, in variable declaration, you can use &lt;em&gt;var&lt;/em&gt; instead of the type. The specific type is determined implicitly from the assigned value. With &lt;em&gt;var&lt;/em&gt; &lt;code&gt;ArrayList&amp;lt;String&amp;gt; list = new ArrayList&amp;lt;&amp;gt;();&lt;/code&gt; can be shortened to &lt;code&gt;var list = new ArrayList&amp;lt;String&amp;gt;();&lt;/code&gt;. This is often handy (e. g. in try-with-resources statements like &lt;code&gt;try (var reader = new BufferedReader(new FileReader(path))) { /*...*/ }&lt;/code&gt;), but in some cases it can also lead to less readable code (in my opinion e. g. in enhanced for-loops like &lt;code&gt;for (var item : x.getItems()) { /*...*/ }&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://openjdk.java.net/jeps/286#Description&quot;&gt;&lt;em&gt;var&lt;/em&gt; is not a keyword, just a reserved type name&lt;/a&gt;. This means that &lt;em&gt;var&lt;/em&gt; can still be used as a variable name but not as a type name: &lt;code&gt;int int = 1;&lt;/code&gt; and &lt;code&gt;var int = 1;&lt;/code&gt; are invalid, but &lt;code&gt;int var = 1;&lt;/code&gt; and &lt;code&gt;var var = 1;&lt;/code&gt; are both valid Java code. Hopefully I will never have to explain to anyone why a module can be named “module” and a var can be named “var”, but an int cannot be named “int” and a class cannot be named “class” and why “module” is a valid class name whereas “var” is not. And because &lt;em&gt;var&lt;/em&gt; is just a reserved type name, &lt;code&gt;final var invar = 1;&lt;/code&gt; may look weird but is valid.&lt;/p&gt;
+&lt;p&gt;Nonetheless, the Eclipse developers did a great job enhancing the Eclipse Java IDE to support &lt;em&gt;var&lt;/em&gt;. The inferred type will be shown on mouse over and in the Javadoc view, the content assist is aware of the inferred type and offers the corresponding proposals and in &lt;em&gt;Mark Occurences&lt;/em&gt; &lt;code&gt;var&lt;/code&gt; is handled as a substitute for the inferred type:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/YGgSLUpRGoc&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-1411&quot; height=&quot;253&quot; src=&quot;https://eclipsehowl.files.wordpress.com/2018/04/eclipse_oxygen_3a_ide_improvements.png?w=450&amp;amp;h=253&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Furthermore, the incremental Eclipse Java compiler had to be adapted for Java 10. &lt;a href=&quot;http://mail.openjdk.java.net/pipermail/compiler-dev/2018-March/011757.html&quot;&gt;Unlike Oracle’s Java compiler javac the Eclipse compiler, however, does not stumble over &lt;code&gt;var s=List.of(&quot;a&quot;,1)&lt;/code&gt;.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Java and other developers, several &lt;a href=&quot;http://www.eclipse.org/downloads/eclipse-packages/&quot;&gt;Eclipse Oxygen.3a IDE packages are available for download&lt;/a&gt;. Older versions of Oxygen will prompt you to upgrade to Oxygen.3a unless the built-in automatic update is disabled. Oxygen.3a is the last update for Eclipse Oxygen. Numerous major changes are currently being finalized for the next major release, Eclipse Photon, on June 27. If you want you can already test a &lt;a href=&quot;https://www.eclipse.org/downloads/index-developer.php?photon&quot;&gt;pre-release of Eclipse Photon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Happy coding!&lt;/p&gt;</description>
+	<pubDate>Thu, 12 Apr 2018 10:15:13 +0000</pubDate>
+</item>
+
+</channel>
+</rss>

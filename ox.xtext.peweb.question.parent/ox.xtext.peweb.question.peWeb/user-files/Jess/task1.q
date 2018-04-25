@@ -1,0 +1,2 @@
+
+Section Section1 { Title "Website Feedback " Description "Hi there, if you have a few minutes can you fill in our survey?" MultipleChoiceQuestion "Do you think our website is easy to navigate" { Answer "Yes" Answer "No" } MultipleChoiceQuestion "Would you visit our website again? " { Answer "Yes" Answer "No" } TextQuestion "Any other comments?" Description "Thanks for filling in our survey" }

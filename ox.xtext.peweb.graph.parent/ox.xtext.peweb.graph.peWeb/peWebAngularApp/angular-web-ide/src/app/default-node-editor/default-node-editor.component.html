@@ -1,0 +1,43 @@
+<div class="default-node-editor" *ngIf="nodeViewDescriptor;else noDetails">
+	<div class ="Attributes" *ngIf="nodeViewDescriptor.attributes.length !=0">
+		<h4> Attributes: </h4>
+		<ul>
+			<li *ngFor="let att of nodeViewDescriptor.attributes">
+				{{att.name}} ({{att.type}}) : <default-einput [type]="att.type" [initialValue]="att.value" (value)="AttributeChange(att,$event)" > </default-einput>
+			</li>
+		</ul>
+	</div>
+
+	<div class="References" *ngIf="nodeViewDescriptor.references.length !=0">
+		<h4> References: </h4>
+		<ul>
+			<li *ngFor="let ref of nodeViewDescriptor.references">
+				{{ref.name}}
+				<ul>
+					<li *ngFor="let refNode of ref.nodes">
+						<span class="removeBtn" (click)="RemoveReferenceClick(refNode.nodeId,ref)">X</span> {{refNode.name}}  : ({{refNode.nodeId}})
+					</li>
+				</ul>
+				<div *ngIf="ref.crossReference == false">
+					<ul>
+						<li *ngFor="let type of ref.possibleTypes">
+							<span class="textbtn" (click)="AddReferenceClick(ref,type)">Add {{type}}</span>
+						</li>
+					</ul>
+				</div>
+				<div *ngIf="ref.crossReference == true" >
+					<select (change)="AddCrossReference(ref,$event.target.value)">
+						<option selected disabled>Add Cross Reference</option>
+						<option *ngFor="let node of ref.possibleCrossReferences" [value]="node.nodeId">
+  						{{node.name}}
+						</option>
+					</select>
+				</div>
+			</li>
+		</ul>		
+	</div>
+</div>
+
+<ng-template #noDetails>
+	No nodeViewDescriptor
+</ng-template>

@@ -1,0 +1,1 @@
+VAR G : Graph VAR X : Particle BEGIN G := GRAPH { { a b c } , { a -> b b -> c } } ; X := PARTICLE ON G AT a ; END
